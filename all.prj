@@ -1,0 +1,6464 @@
+
+flarum=/alidata/www/flarum CD=. {
+ CONTRIBUTING.md
+ LICENSE
+ Procfile
+ Vagrantfile
+ admin.php
+ all.prj
+ api.php
+ composer.json
+ composer.lock
+ config.php
+ flarum
+ index.php
+ readme.md
+ assets=assets {
+  avatars=avatars {
+  }
+ }
+ scripts=scripts {
+  aliases
+  environment.sh
+ }
+ storage=storage {
+  cache=cache {
+  }
+  formatter=formatter {
+  }
+  less=less {
+  }
+  logs=logs {
+   flarum.log
+  }
+  tmp=tmp {
+  }
+  views=views {
+   09e05e8b23af7161d9047d5db699fcc1
+   4dd566a12bbcce02aa7f470b5e4b93a0
+   b0e17bf3e3859eea56b9afe7e1547c33
+   cc336b79d5b2564f4f1732eb516282c5
+  }
+ }
+ vendor=vendor {
+  autoload.php
+  bin=bin {
+   doctrine-dbal
+   lessc
+   minifycss
+   minifyjs
+   studio
+  }
+  components=components {
+   font-awesome=font-awesome {
+    Makefile
+    README.md
+    bower.json
+    component.json
+    composer.json
+    package.json
+    css=css {
+     font-awesome.css
+     font-awesome.css.map
+     font-awesome.min.css
+    }
+    fonts=fonts {
+     FontAwesome.otf
+     fontawesome-webfont.eot
+     fontawesome-webfont.svg
+     fontawesome-webfont.ttf
+     fontawesome-webfont.woff
+     fontawesome-webfont.woff2
+    }
+    less=less {
+     animated.less
+     bordered-pulled.less
+     core.less
+     fixed-width.less
+     font-awesome.less
+     icons.less
+     larger.less
+     list.less
+     mixins.less
+     path.less
+     rotated-flipped.less
+     screen-reader.less
+     stacked.less
+     variables.less
+    }
+    scss=scss {
+     _animated.scss
+     _bordered-pulled.scss
+     _core.scss
+     _fixed-width.scss
+     _icons.scss
+     _larger.scss
+     _list.scss
+     _mixins.scss
+     _path.scss
+     _rotated-flipped.scss
+     _screen-reader.scss
+     _stacked.scss
+     _variables.scss
+     font-awesome.scss
+    }
+   }
+  }
+  composer=composer {
+   ClassLoader.php
+   LICENSE
+   autoload_classmap.php
+   autoload_files.php
+   autoload_namespaces.php
+   autoload_psr4.php
+   autoload_real.php
+   autoload_static.php
+   installed.json
+  }
+  danielstjules=danielstjules {
+   stringy=stringy {
+    CHANGELOG.md
+    LICENSE.txt
+    README.md
+    composer.json
+    phpunit.xml.dist
+    src=src {
+     Create.php
+     StaticStringy.php
+     Stringy.php
+    }
+    tests=tests {
+     CommonTest.php
+     CreateTest.php
+     StaticStringyTest.php
+     StringyTest.php
+    }
+   }
+  }
+  dflydev=dflydev {
+   fig-cookies=fig-cookies {
+    LICENSE
+    README.md
+    composer.json
+    composer.lock
+    phpunit.xml.dist
+    src=src {
+     Dflydev=Dflydev {
+      FigCookies=FigCookies {
+       Cookie.php
+       Cookies.php
+       FigRequestCookies.php
+       FigResponseCookies.php
+       SetCookie.php
+       SetCookies.php
+       StringUtil.php
+      }
+     }
+    }
+    tests=tests {
+     Dflydev=Dflydev {
+      FigCookies=FigCookies {
+       CookieTest.php
+       CookiesTest.php
+       FigCookieTestingMessage.php
+       FigCookieTestingRequest.php
+       FigCookieTestingResponse.php
+       FigCookiesTest.php
+       FigRequestCookiesTest.php
+       FigResponseCookiesTest.php
+       SetCookieTest.php
+       SetCookiesTest.php
+      }
+     }
+    }
+   }
+  }
+  doctrine=doctrine {
+   annotations=annotations {
+    CHANGELOG.md
+    LICENSE
+    README.md
+    composer.json
+    phpstan.neon
+    lib=lib {
+     Doctrine=Doctrine {
+      Common=Common {
+       Annotations=Annotations {
+        Annotation.php
+        AnnotationException.php
+        AnnotationReader.php
+        AnnotationRegistry.php
+        CachedReader.php
+        DocLexer.php
+        DocParser.php
+        FileCacheReader.php
+        IndexedReader.php
+        PhpParser.php
+        Reader.php
+        SimpleAnnotationReader.php
+        TokenParser.php
+        Annotation=Annotation {
+         Attribute.php
+         Attributes.php
+         Enum.php
+         IgnoreAnnotation.php
+         Required.php
+         Target.php
+        }
+       }
+      }
+     }
+    }
+   }
+   cache=cache {
+    LICENSE
+    README.md
+    UPGRADE.md
+    build.properties
+    build.xml
+    composer.json
+    phpunit.xml.dist
+    lib=lib {
+     Doctrine=Doctrine {
+      Common=Common {
+       Cache=Cache {
+        ApcCache.php
+        ApcuCache.php
+        ArrayCache.php
+        Cache.php
+        CacheProvider.php
+        ChainCache.php
+        ClearableCache.php
+        CouchbaseCache.php
+        FileCache.php
+        FilesystemCache.php
+        FlushableCache.php
+        MemcacheCache.php
+        MemcachedCache.php
+        MongoDBCache.php
+        MultiGetCache.php
+        MultiPutCache.php
+        PhpFileCache.php
+        PredisCache.php
+        RedisCache.php
+        RiakCache.php
+        SQLite3Cache.php
+        Version.php
+        VoidCache.php
+        WinCacheCache.php
+        XcacheCache.php
+        ZendDataCache.php
+       }
+      }
+     }
+    }
+    tests=tests {
+     Doctrine=Doctrine {
+      Tests=Tests {
+       DoctrineTestCase.php
+       Common=Common {
+        Cache=Cache {
+         ApcCacheTest.php
+         ApcuCacheTest.php
+         ArrayCacheTest.php
+         BaseFileCacheTest.php
+         CacheProviderTest.php
+         CacheTest.php
+         ChainCacheTest.php
+         CouchbaseCacheTest.php
+         FileCacheTest.php
+         FilesystemCacheTest.php
+         MemcacheCacheTest.php
+         MemcachedCacheTest.php
+         MongoDBCacheTest.php
+         PhpFileCacheTest.php
+         PredisCacheTest.php
+         RedisCacheTest.php
+         RiakCacheTest.php
+         SQLite3CacheTest.php
+         VoidCacheTest.php
+         WinCacheCacheTest.php
+         XcacheCacheTest.php
+         ZendDataCacheTest.php
+        }
+       }
+      }
+     }
+     travis=travis {
+      php.ini
+      phpunit.travis.xml
+     }
+    }
+   }
+   collections=collections {
+    CONTRIBUTING.md
+    LICENSE
+    README.md
+    composer.json
+    lib=lib {
+     Doctrine=Doctrine {
+      Common=Common {
+       Collections=Collections {
+        AbstractLazyCollection.php
+        ArrayCollection.php
+        Collection.php
+        Criteria.php
+        ExpressionBuilder.php
+        Selectable.php
+        Expr=Expr {
+         ClosureExpressionVisitor.php
+         Comparison.php
+         CompositeExpression.php
+         Expression.php
+         ExpressionVisitor.php
+         Value.php
+        }
+       }
+      }
+     }
+    }
+   }
+   common=common {
+    LICENSE
+    README.md
+    UPGRADE_TO_2_1
+    UPGRADE_TO_2_2
+    composer.json
+    humbug.json.dist
+    lib=lib {
+     Doctrine=Doctrine {
+      Common=Common {
+       ClassLoader.php
+       CommonException.php
+       Comparable.php
+       EventArgs.php
+       EventManager.php
+       EventSubscriber.php
+       Lexer.php
+       NotifyPropertyChanged.php
+       PropertyChangedListener.php
+       Version.php
+       Persistence=Persistence {
+        AbstractManagerRegistry.php
+        ConnectionRegistry.php
+        ManagerRegistry.php
+        ObjectManager.php
+        ObjectManagerAware.php
+        ObjectManagerDecorator.php
+        ObjectRepository.php
+        PersistentObject.php
+        Proxy.php
+        Event=Event {
+         LifecycleEventArgs.php
+         LoadClassMetadataEventArgs.php
+         ManagerEventArgs.php
+         OnClearEventArgs.php
+         PreUpdateEventArgs.php
+        }
+        Mapping=Mapping {
+         AbstractClassMetadataFactory.php
+         ClassMetadata.php
+         ClassMetadataFactory.php
+         MappingException.php
+         ReflectionService.php
+         RuntimeReflectionService.php
+         StaticReflectionService.php
+         Driver=Driver {
+          AnnotationDriver.php
+          DefaultFileLocator.php
+          FileDriver.php
+          FileLocator.php
+          MappingDriver.php
+          MappingDriverChain.php
+          PHPDriver.php
+          StaticPHPDriver.php
+          SymfonyFileLocator.php
+         }
+        }
+       }
+       Proxy=Proxy {
+        AbstractProxyFactory.php
+        Autoloader.php
+        Proxy.php
+        ProxyDefinition.php
+        ProxyGenerator.php
+        Exception=Exception {
+         InvalidArgumentException.php
+         OutOfBoundsException.php
+         ProxyException.php
+         UnexpectedValueException.php
+        }
+       }
+       Reflection=Reflection {
+        ClassFinderInterface.php
+        Psr0FindFile.php
+        ReflectionProviderInterface.php
+        RuntimePublicReflectionProperty.php
+        StaticReflectionClass.php
+        StaticReflectionMethod.php
+        StaticReflectionParser.php
+        StaticReflectionProperty.php
+       }
+       Util=Util {
+        ClassUtils.php
+        Debug.php
+        Inflector.php
+       }
+      }
+     }
+     vendor=vendor {
+      doctrine-build-common=doctrine-build-common {
+      }
+     }
+    }
+   }
+   dbal=dbal {
+    LICENSE
+    README.md
+    SECURITY.md
+    UPGRADE.md
+    composer.json
+    bin=bin {
+     doctrine-dbal
+     doctrine-dbal.php
+    }
+    lib=lib {
+     Doctrine=Doctrine {
+      DBAL=DBAL {
+       Configuration.php
+       Connection.php
+       ConnectionException.php
+       DBALException.php
+       Driver.php
+       DriverManager.php
+       Events.php
+       LockMode.php
+       README.markdown
+       SQLParserUtils.php
+       SQLParserUtilsException.php
+       Statement.php
+       Version.php
+       VersionAwarePlatformDriver.php
+       Cache=Cache {
+        ArrayStatement.php
+        CacheException.php
+        QueryCacheProfile.php
+        ResultCacheStatement.php
+       }
+       Connections=Connections {
+        MasterSlaveConnection.php
+       }
+       Driver=Driver {
+        AbstractDB2Driver.php
+        AbstractDriverException.php
+        AbstractMySQLDriver.php
+        AbstractOracleDriver.php
+        AbstractPostgreSQLDriver.php
+        AbstractSQLAnywhereDriver.php
+        AbstractSQLServerDriver.php
+        AbstractSQLiteDriver.php
+        Connection.php
+        DriverException.php
+        ExceptionConverterDriver.php
+        PDOConnection.php
+        PDOException.php
+        PDOStatement.php
+        PingableConnection.php
+        ResultStatement.php
+        ServerInfoAwareConnection.php
+        Statement.php
+        DrizzlePDOMySql=DrizzlePDOMySql {
+         Connection.php
+         Driver.php
+        }
+        IBMDB2=IBMDB2 {
+         DB2Connection.php
+         DB2Driver.php
+         DB2Exception.php
+         DB2Statement.php
+        }
+        Mysqli=Mysqli {
+         Driver.php
+         MysqliConnection.php
+         MysqliException.php
+         MysqliStatement.php
+        }
+        OCI8=OCI8 {
+         Driver.php
+         OCI8Connection.php
+         OCI8Exception.php
+         OCI8Statement.php
+        }
+        PDOIbm=PDOIbm {
+         Driver.php
+        }
+        PDOMySql=PDOMySql {
+         Driver.php
+        }
+        PDOOracle=PDOOracle {
+         Driver.php
+        }
+        PDOPgSql=PDOPgSql {
+         Driver.php
+        }
+        PDOSqlite=PDOSqlite {
+         Driver.php
+        }
+        PDOSqlsrv=PDOSqlsrv {
+         Connection.php
+         Driver.php
+         Statement.php
+        }
+        SQLAnywhere=SQLAnywhere {
+         Driver.php
+         SQLAnywhereConnection.php
+         SQLAnywhereException.php
+         SQLAnywhereStatement.php
+        }
+        SQLSrv=SQLSrv {
+         Driver.php
+         LastInsertId.php
+         SQLSrvConnection.php
+         SQLSrvException.php
+         SQLSrvStatement.php
+        }
+       }
+       Event=Event {
+        ConnectionEventArgs.php
+        SchemaAlterTableAddColumnEventArgs.php
+        SchemaAlterTableChangeColumnEventArgs.php
+        SchemaAlterTableEventArgs.php
+        SchemaAlterTableRemoveColumnEventArgs.php
+        SchemaAlterTableRenameColumnEventArgs.php
+        SchemaColumnDefinitionEventArgs.php
+        SchemaCreateTableColumnEventArgs.php
+        SchemaCreateTableEventArgs.php
+        SchemaDropTableEventArgs.php
+        SchemaEventArgs.php
+        SchemaIndexDefinitionEventArgs.php
+        Listeners=Listeners {
+         MysqlSessionInit.php
+         OracleSessionInit.php
+         SQLSessionInit.php
+        }
+       }
+       Exception=Exception {
+        ConnectionException.php
+        ConstraintViolationException.php
+        DatabaseObjectExistsException.php
+        DatabaseObjectNotFoundException.php
+        DriverException.php
+        ForeignKeyConstraintViolationException.php
+        InvalidArgumentException.php
+        InvalidFieldNameException.php
+        NonUniqueFieldNameException.php
+        NotNullConstraintViolationException.php
+        ReadOnlyException.php
+        ServerException.php
+        SyntaxErrorException.php
+        TableExistsException.php
+        TableNotFoundException.php
+        UniqueConstraintViolationException.php
+       }
+       Id=Id {
+        TableGenerator.php
+        TableGeneratorSchemaVisitor.php
+       }
+       Logging=Logging {
+        DebugStack.php
+        EchoSQLLogger.php
+        LoggerChain.php
+        SQLLogger.php
+       }
+       Platforms=Platforms {
+        AbstractPlatform.php
+        DB2Platform.php
+        DrizzlePlatform.php
+        MySQL57Platform.php
+        MySqlPlatform.php
+        OraclePlatform.php
+        PostgreSQL91Platform.php
+        PostgreSQL92Platform.php
+        PostgreSqlPlatform.php
+        SQLAnywhere11Platform.php
+        SQLAnywhere12Platform.php
+        SQLAnywhere16Platform.php
+        SQLAnywherePlatform.php
+        SQLAzurePlatform.php
+        SQLServer2005Platform.php
+        SQLServer2008Platform.php
+        SQLServer2012Platform.php
+        SQLServerPlatform.php
+        SqlitePlatform.php
+        Keywords=Keywords {
+         DB2Keywords.php
+         DrizzleKeywords.php
+         KeywordList.php
+         MsSQLKeywords.php
+         MySQL57Keywords.php
+         MySQLKeywords.php
+         OracleKeywords.php
+         PostgreSQL91Keywords.php
+         PostgreSQL92Keywords.php
+         PostgreSQLKeywords.php
+         ReservedKeywordsValidator.php
+         SQLAnywhere11Keywords.php
+         SQLAnywhere12Keywords.php
+         SQLAnywhere16Keywords.php
+         SQLAnywhereKeywords.php
+         SQLServer2005Keywords.php
+         SQLServer2008Keywords.php
+         SQLServer2012Keywords.php
+         SQLServerKeywords.php
+         SQLiteKeywords.php
+        }
+       }
+       Portability=Portability {
+        Connection.php
+        Statement.php
+       }
+       Query=Query {
+        QueryBuilder.php
+        QueryException.php
+        Expression=Expression {
+         CompositeExpression.php
+         ExpressionBuilder.php
+        }
+       }
+       Schema=Schema {
+        AbstractAsset.php
+        AbstractSchemaManager.php
+        Column.php
+        ColumnDiff.php
+        Comparator.php
+        Constraint.php
+        DB2SchemaManager.php
+        DrizzleSchemaManager.php
+        ForeignKeyConstraint.php
+        Identifier.php
+        Index.php
+        MySqlSchemaManager.php
+        OracleSchemaManager.php
+        PostgreSqlSchemaManager.php
+        SQLAnywhereSchemaManager.php
+        SQLServerSchemaManager.php
+        Schema.php
+        SchemaConfig.php
+        SchemaDiff.php
+        SchemaException.php
+        Sequence.php
+        SqliteSchemaManager.php
+        Table.php
+        TableDiff.php
+        View.php
+        Synchronizer=Synchronizer {
+         AbstractSchemaSynchronizer.php
+         SchemaSynchronizer.php
+         SingleDatabaseSynchronizer.php
+        }
+        Visitor=Visitor {
+         AbstractVisitor.php
+         CreateSchemaSqlCollector.php
+         DropSchemaSqlCollector.php
+         Graphviz.php
+         NamespaceVisitor.php
+         RemoveNamespacedAssets.php
+         SchemaDiffVisitor.php
+         Visitor.php
+        }
+       }
+       Sharding=Sharding {
+        PoolingShardConnection.php
+        PoolingShardManager.php
+        ShardManager.php
+        ShardingException.php
+        SQLAzure=SQLAzure {
+         SQLAzureFederationsSynchronizer.php
+         SQLAzureShardManager.php
+         Schema=Schema {
+          MultiTenantVisitor.php
+         }
+        }
+        ShardChoser=ShardChoser {
+         MultiTenantShardChoser.php
+         ShardChoser.php
+        }
+       }
+       Tools=Tools {
+        Console=Console {
+         ConsoleRunner.php
+         Command=Command {
+          ImportCommand.php
+          ReservedWordsCommand.php
+          RunSqlCommand.php
+         }
+         Helper=Helper {
+          ConnectionHelper.php
+         }
+        }
+       }
+       Types=Types {
+        ArrayType.php
+        BigIntType.php
+        BinaryType.php
+        BlobType.php
+        BooleanType.php
+        ConversionException.php
+        DateTimeType.php
+        DateTimeTzType.php
+        DateType.php
+        DecimalType.php
+        FloatType.php
+        GuidType.php
+        IntegerType.php
+        JsonArrayType.php
+        ObjectType.php
+        SimpleArrayType.php
+        SmallIntType.php
+        StringType.php
+        TextType.php
+        TimeType.php
+        Type.php
+        VarDateTimeType.php
+       }
+      }
+     }
+     vendor=vendor {
+      Symfony=Symfony {
+       Component=Component {
+        Console=Console {
+        }
+       }
+      }
+      doctrine-build-common=doctrine-build-common {
+      }
+      doctrine-common=doctrine-common {
+      }
+     }
+    }
+   }
+   inflector=inflector {
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml.dist
+    lib=lib {
+     Doctrine=Doctrine {
+      Common=Common {
+       Inflector=Inflector {
+        Inflector.php
+       }
+      }
+     }
+    }
+    tests=tests {
+     Doctrine=Doctrine {
+      Tests=Tests {
+       DoctrineTestCase.php
+       TestInit.php
+       Common=Common {
+        Inflector=Inflector {
+         InflectorTest.php
+        }
+       }
+      }
+     }
+    }
+   }
+   lexer=lexer {
+    LICENSE
+    README.md
+    composer.json
+    lib=lib {
+     Doctrine=Doctrine {
+      Common=Common {
+       Lexer=Lexer {
+        AbstractLexer.php
+       }
+      }
+     }
+    }
+   }
+  }
+  filp=filp {
+   whoops=whoops {
+    CHANGELOG.md
+    LICENSE.md
+    composer.json
+    src=src {
+     Whoops=Whoops {
+      Run.php
+      RunInterface.php
+      Exception=Exception {
+       ErrorException.php
+       Formatter.php
+       Frame.php
+       FrameCollection.php
+       Inspector.php
+      }
+      Handler=Handler {
+       CallbackHandler.php
+       Handler.php
+       HandlerInterface.php
+       JsonResponseHandler.php
+       PlainTextHandler.php
+       PrettyPageHandler.php
+       XmlResponseHandler.php
+      }
+      Resources=Resources {
+       css=css {
+        whoops.base.css
+       }
+       js=js {
+        clipboard.min.js
+        whoops.base.js
+        zepto.min.js
+       }
+       views=views {
+        env_details.html.php
+        frame_code.html.php
+        frame_list.html.php
+        frames_container.html.php
+        frames_description.html.php
+        header.html.php
+        header_outer.html.php
+        layout.html.php
+        panel_details.html.php
+        panel_details_outer.html.php
+        panel_left.html.php
+        panel_left_outer.html.php
+       }
+      }
+      Util=Util {
+       HtmlDumperOutput.php
+       Misc.php
+       SystemFacade.php
+       TemplateHelper.php
+      }
+     }
+    }
+   }
+  }
+  flarum=flarum {
+   core=core {
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml
+    error=error {
+     403.html
+     404.html
+     500.html
+     503.html
+    }
+    js=js {
+     bower.json
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       app.js
+      }
+      src=src {
+       app.js
+       components=components {
+        AddExtensionModal.js
+        AdminLinkButton.js
+        AdminNav.js
+        AppearancePage.js
+        BasicsPage.js
+        DashboardPage.js
+        EditCustomCssModal.js
+        EditCustomHeaderModal.js
+        EditGroupModal.js
+        ExtensionsPage.js
+        HeaderPrimary.js
+        HeaderSecondary.js
+        LoadingModal.js
+        MailPage.js
+        Page.js
+        PermissionDropdown.js
+        PermissionGrid.js
+        PermissionsPage.js
+        SessionDropdown.js
+        SettingDropdown.js
+        SettingsModal.js
+        UploadImageButton.js
+       }
+       initializers=initializers {
+        boot.js
+        routes.js
+       }
+       utils=utils {
+        saveSettings.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       app.js
+      }
+      src=src {
+       ForumApp.js
+       app.js
+       components=components {
+        AvatarEditor.js
+        ChangeEmailModal.js
+        ChangePasswordModal.js
+        CommentPost.js
+        Composer.js
+        ComposerBody.js
+        ComposerButton.js
+        DiscussionComposer.js
+        DiscussionHero.js
+        DiscussionList.js
+        DiscussionListItem.js
+        DiscussionPage.js
+        DiscussionRenamedNotification.js
+        DiscussionRenamedPost.js
+        DiscussionsSearchSource.js
+        DiscussionsUserPage.js
+        EditPostComposer.js
+        EditUserModal.js
+        EventPost.js
+        ForgotPasswordModal.js
+        HeaderPrimary.js
+        HeaderSecondary.js
+        IndexPage.js
+        LoadingPost.js
+        LogInButton.js
+        LogInButtons.js
+        LogInModal.js
+        Notification.js
+        NotificationGrid.js
+        NotificationList.js
+        NotificationsDropdown.js
+        NotificationsPage.js
+        Page.js
+        Post.js
+        PostEdited.js
+        PostMeta.js
+        PostPreview.js
+        PostStream.js
+        PostStreamScrubber.js
+        PostUser.js
+        PostsUserPage.js
+        ReplyComposer.js
+        ReplyPlaceholder.js
+        Search.js
+        SearchSource.js
+        SessionDropdown.js
+        SettingsPage.js
+        SignUpModal.js
+        TerminalPost.js
+        TextEditor.js
+        UserBio.js
+        UserCard.js
+        UserPage.js
+        UsersSearchSource.js
+        WelcomeHero.js
+       }
+       initializers=initializers {
+        alertEmailConfirmation.js
+        boot.js
+        components.js
+        routes.js
+       }
+       utils=utils {
+        DiscussionControls.js
+        History.js
+        KeyboardNavigatable.js
+        Pane.js
+        PostControls.js
+        UserControls.js
+        affixSidebar.js
+        slidable.js
+       }
+      }
+     }
+     lib=lib {
+      App.js
+      Component.js
+      Model.js
+      Session.js
+      Store.js
+      Translator.js
+      extend.js
+      components=components {
+       Alert.js
+       AlertManager.js
+       Badge.js
+       Button.js
+       Checkbox.js
+       Dropdown.js
+       FieldSet.js
+       GroupBadge.js
+       LinkButton.js
+       LoadingIndicator.js
+       Modal.js
+       ModalManager.js
+       Navigation.js
+       Placeholder.js
+       RequestErrorModal.js
+       Select.js
+       SelectDropdown.js
+       Separator.js
+       SplitDropdown.js
+       Switch.js
+      }
+      helpers=helpers {
+       avatar.js
+       fullTime.js
+       highlight.js
+       humanTime.js
+       icon.js
+       listItems.js
+       punctuateSeries.js
+       userOnline.js
+       username.js
+      }
+      initializers=initializers {
+       humanTime.js
+       preload.js
+       store.js
+      }
+      models=models {
+       Discussion.js
+       Forum.js
+       Group.js
+       Notification.js
+       Post.js
+       User.js
+      }
+      utils=utils {
+       Drawer.js
+       ItemList.js
+       RequestError.js
+       ScrollListener.js
+       SubtreeRetainer.js
+       abbreviateNumber.js
+       anchorScroll.js
+       classList.js
+       computed.js
+       evented.js
+       extract.js
+       extractText.js
+       formatNumber.js
+       humanTime.js
+       mapRoutes.js
+       mixin.js
+       patchMithril.js
+       string.js
+       stringToColor.js
+      }
+     }
+    }
+    less=less {
+     admin=admin {
+      AdminNav.less
+      AppearancePage.less
+      BasicsPage.less
+      DashboardPage.less
+      EditGroupModal.less
+      ExtensionsPage.less
+      MailPage.less
+      PermissionsPage.less
+      app.less
+     }
+     forum=forum {
+      ActivityPage.less
+      AvatarEditor.less
+      Composer.less
+      DiscussionHero.less
+      DiscussionList.less
+      DiscussionListItem.less
+      DiscussionPage.less
+      EditUserModal.less
+      Hero.less
+      IndexPage.less
+      LogInButton.less
+      LogInModal.less
+      NotificationGrid.less
+      NotificationList.less
+      NotificationsDropdown.less
+      Post.less
+      PostStream.less
+      Scrubber.less
+      SettingsPage.less
+      SignUpModal.less
+      Slidable.less
+      UserCard.less
+      UserPage.less
+      app.less
+     }
+     lib=lib {
+      Alert.less
+      AlertManager.less
+      App.less
+      Avatar.less
+      Badge.less
+      Button.less
+      Checkbox.less
+      Dropdown.less
+      Form.less
+      FormControl.less
+      LoadingIndicator.less
+      Modal.less
+      Navigation.less
+      Placeholder.less
+      Search.less
+      Select.less
+      Tooltip.less
+      lib.less
+      mixins.less
+      normalize.less
+      print.less
+      scaffolding.less
+      sideNav.less
+      variables.less
+      mixins=mixins {
+       border-radius.less
+       clearfix.less
+       header-background.less
+       light-contents.less
+       vendor-prefixes.less
+      }
+     }
+    }
+    migrations=migrations {
+     2015_02_24_000000_create_access_tokens_table.php
+     2015_02_24_000000_create_api_keys_table.php
+     2015_02_24_000000_create_config_table.php
+     2015_02_24_000000_create_discussions_table.php
+     2015_02_24_000000_create_email_tokens_table.php
+     2015_02_24_000000_create_groups_table.php
+     2015_02_24_000000_create_notifications_table.php
+     2015_02_24_000000_create_password_tokens_table.php
+     2015_02_24_000000_create_permissions_table.php
+     2015_02_24_000000_create_posts_table.php
+     2015_02_24_000000_create_users_discussions_table.php
+     2015_02_24_000000_create_users_groups_table.php
+     2015_02_24_000000_create_users_table.php
+     2015_09_15_000000_create_auth_tokens_table.php
+     2015_09_20_224327_add_hide_to_discussions.php
+     2015_09_22_030432_rename_notification_read_time.php
+     2015_10_07_130531_rename_config_to_settings.php
+     2015_10_24_194000_add_ip_address_to_posts.php
+     2015_12_05_042721_change_access_tokens_columns.php
+     2015_12_17_194247_change_settings_value_column_to_text.php
+     2016_02_04_095452_add_slug_to_discussions.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     helpers.php
+     Admin=Admin {
+      AdminServiceProvider.php
+      Server.php
+      UrlGenerator.php
+      WebApp.php
+      Controller=Controller {
+       WebAppController.php
+      }
+      Middleware=Middleware {
+       RequireAdministrateAbility.php
+      }
+     }
+     Api=Api {
+      ApiKey.php
+      ApiServiceProvider.php
+      Client.php
+      ErrorHandler.php
+      JsonApiResponse.php
+      Server.php
+      UrlGenerator.php
+      Controller=Controller {
+       AbstractCollectionController.php
+       AbstractCreateController.php
+       AbstractDeleteController.php
+       AbstractResourceController.php
+       AbstractSerializeController.php
+       CreateDiscussionController.php
+       CreateGroupController.php
+       CreatePostController.php
+       CreateUserController.php
+       DeleteAvatarController.php
+       DeleteDiscussionController.php
+       DeleteFaviconController.php
+       DeleteGroupController.php
+       DeleteLogoController.php
+       DeletePostController.php
+       DeleteUserController.php
+       ForgotPasswordController.php
+       ListDiscussionsController.php
+       ListGroupsController.php
+       ListNotificationsController.php
+       ListPostsController.php
+       ListUsersController.php
+       ReadAllNotificationsController.php
+       SendConfirmationEmailController.php
+       SetPermissionController.php
+       SetSettingsController.php
+       ShowDiscussionController.php
+       ShowForumController.php
+       ShowPostController.php
+       ShowUserController.php
+       TokenController.php
+       UninstallExtensionController.php
+       UpdateDiscussionController.php
+       UpdateExtensionController.php
+       UpdateGroupController.php
+       UpdateNotificationController.php
+       UpdatePostController.php
+       UpdateUserController.php
+       UploadAvatarController.php
+       UploadFaviconController.php
+       UploadLogoController.php
+      }
+      Exception=Exception {
+       InvalidAccessTokenException.php
+      }
+      Handler=Handler {
+       FloodingExceptionHandler.php
+       IlluminateValidationExceptionHandler.php
+       InvalidAccessTokenExceptionHandler.php
+       InvalidConfirmationTokenExceptionHandler.php
+       MethodNotAllowedExceptionHandler.php
+       ModelNotFoundExceptionHandler.php
+       PermissionDeniedExceptionHandler.php
+       RouteNotFoundExceptionHandler.php
+       TokenMismatchExceptionHandler.php
+       ValidationExceptionHandler.php
+      }
+      Middleware=Middleware {
+       FakeHttpMethods.php
+       HandleErrors.php
+      }
+      Serializer=Serializer {
+       AbstractSerializer.php
+       CurrentUserSerializer.php
+       DiscussionBasicSerializer.php
+       DiscussionSerializer.php
+       ForumSerializer.php
+       GroupSerializer.php
+       NotificationSerializer.php
+       PostBasicSerializer.php
+       PostSerializer.php
+       UserBasicSerializer.php
+       UserSerializer.php
+      }
+     }
+     Asset=Asset {
+      CompilerInterface.php
+      JsCompiler.php
+      LessCompiler.php
+      RevisionCompiler.php
+     }
+     Console=Console {
+      Server.php
+      Command=Command {
+       AbstractCommand.php
+       GenerateMigrationCommand.php
+      }
+     }
+     Core=Core {
+      AuthToken.php
+      CoreServiceProvider.php
+      Discussion.php
+      DiscussionState.php
+      EmailToken.php
+      Group.php
+      Guest.php
+      Notification.php
+      PasswordToken.php
+      Permission.php
+      Post.php
+      User.php
+      Access=Access {
+       AbstractPolicy.php
+       AssertPermissionTrait.php
+       DiscussionPolicy.php
+       Gate.php
+       GroupPolicy.php
+       PostPolicy.php
+       UserPolicy.php
+      }
+      Command=Command {
+       ConfirmEmail.php
+       ConfirmEmailHandler.php
+       CreateGroup.php
+       CreateGroupHandler.php
+       DeleteAvatar.php
+       DeleteAvatarHandler.php
+       DeleteDiscussion.php
+       DeleteDiscussionHandler.php
+       DeleteGroup.php
+       DeleteGroupHandler.php
+       DeletePost.php
+       DeletePostHandler.php
+       DeleteUser.php
+       DeleteUserHandler.php
+       EditDiscussion.php
+       EditDiscussionHandler.php
+       EditGroup.php
+       EditGroupHandler.php
+       EditPost.php
+       EditPostHandler.php
+       EditUser.php
+       EditUserHandler.php
+       PostReply.php
+       PostReplyHandler.php
+       ReadAllNotifications.php
+       ReadAllNotificationsHandler.php
+       ReadDiscussion.php
+       ReadDiscussionHandler.php
+       ReadNotification.php
+       ReadNotificationHandler.php
+       RegisterUser.php
+       RegisterUserHandler.php
+       RequestPasswordReset.php
+       RequestPasswordResetHandler.php
+       StartDiscussion.php
+       StartDiscussionHandler.php
+       UploadAvatar.php
+       UploadAvatarHandler.php
+      }
+      Exception=Exception {
+       FloodingException.php
+       InvalidConfirmationTokenException.php
+       PermissionDeniedException.php
+       ValidationException.php
+      }
+      Listener=Listener {
+       DiscussionMetadataUpdater.php
+       DiscussionRenamedNotifier.php
+       EmailConfirmationMailer.php
+       UserMetadataUpdater.php
+      }
+      Notification=Notification {
+       BlueprintInterface.php
+       DiscussionRenamedBlueprint.php
+       MailableInterface.php
+       NotificationMailer.php
+       NotificationServiceProvider.php
+       NotificationSyncer.php
+      }
+      Post=Post {
+       AbstractEventPost.php
+       CommentPost.php
+       DiscussionRenamedPost.php
+       Floodgate.php
+       MergeableInterface.php
+       RegisteredTypesScope.php
+      }
+      Repository=Repository {
+       DiscussionRepository.php
+       GroupRepository.php
+       NotificationRepository.php
+       PostRepository.php
+       UserRepository.php
+      }
+      Search=Search {
+       AbstractRegexGambit.php
+       AbstractSearch.php
+       ApplySearchParametersTrait.php
+       GambitInterface.php
+       GambitManager.php
+       SearchCriteria.php
+       SearchResults.php
+       SearchServiceProvider.php
+       Discussion=Discussion {
+        DiscussionSearch.php
+        DiscussionSearcher.php
+        Fulltext=Fulltext {
+         DriverInterface.php
+         MySqlFulltextDriver.php
+         MySqlLikeDriver.php
+        }
+        Gambit=Gambit {
+         AuthorGambit.php
+         CreatedGambit.php
+         FulltextGambit.php
+         HiddenGambit.php
+         UnreadGambit.php
+        }
+       }
+       User=User {
+        UserSearch.php
+        UserSearcher.php
+        Gambit=Gambit {
+         EmailGambit.php
+         FulltextGambit.php
+        }
+       }
+      }
+      Support=Support {
+       DispatchEventsTrait.php
+       EventGeneratorTrait.php
+       ScopeVisibilityTrait.php
+      }
+      Validator=Validator {
+       AbstractValidator.php
+       AvatarValidator.php
+       DiscussionValidator.php
+       GroupValidator.php
+       PostValidator.php
+       UserValidator.php
+      }
+     }
+     Database=Database {
+      AbstractModel.php
+      DatabaseMigrationRepository.php
+      DatabaseServiceProvider.php
+      Migration.php
+      MigrationCreator.php
+      MigrationRepositoryInterface.php
+      Migrator.php
+     }
+     Debug=Debug {
+      Console=Console {
+       CacheClearCommand.php
+       InfoCommand.php
+      }
+     }
+     Event=Event {
+      AbstractConfigureGambits.php
+      AbstractConfigureRoutes.php
+      AvatarWillBeDeleted.php
+      AvatarWillBeSaved.php
+      ConfigureApiController.php
+      ConfigureApiRoutes.php
+      ConfigureClientView.php
+      ConfigureDiscussionGambits.php
+      ConfigureDiscussionSearch.php
+      ConfigureFormatter.php
+      ConfigureFormatterParser.php
+      ConfigureFormatterRenderer.php
+      ConfigureForumRoutes.php
+      ConfigureLocales.php
+      ConfigureMiddleware.php
+      ConfigureModelDates.php
+      ConfigureModelDefaultAttributes.php
+      ConfigureNotificationTypes.php
+      ConfigurePostTypes.php
+      ConfigurePostsQuery.php
+      ConfigureUserGambits.php
+      ConfigureUserPreferences.php
+      ConfigureUserSearch.php
+      ConfigureValidator.php
+      ConfigureWebApp.php
+      DiscussionStateWillBeSaved.php
+      DiscussionWasDeleted.php
+      DiscussionWasHidden.php
+      DiscussionWasRead.php
+      DiscussionWasRenamed.php
+      DiscussionWasRestored.php
+      DiscussionWasStarted.php
+      DiscussionWillBeDeleted.php
+      DiscussionWillBeSaved.php
+      ExtensionWasDisabled.php
+      ExtensionWasEnabled.php
+      ExtensionWasUninstalled.php
+      GetApiRelationship.php
+      GetModelRelationship.php
+      GetPermission.php
+      GroupWasCreated.php
+      GroupWasDeleted.php
+      GroupWasRenamed.php
+      GroupWillBeDeleted.php
+      GroupWillBeSaved.php
+      NotificationWillBeSent.php
+      PostWasDeleted.php
+      PostWasHidden.php
+      PostWasPosted.php
+      PostWasRestored.php
+      PostWasRevised.php
+      PostWillBeDeleted.php
+      PostWillBeSaved.php
+      PrepareApiAttributes.php
+      PrepareApiData.php
+      PrepareSerializedSetting.php
+      PrepareUnserializedSettings.php
+      PrepareUserGroups.php
+      ScopeHiddenDiscussionVisibility.php
+      ScopeModelVisibility.php
+      ScopePostVisibility.php
+      SettingWasSet.php
+      UserAvatarWasChanged.php
+      UserBioWasChanged.php
+      UserEmailChangeWasRequested.php
+      UserEmailWasChanged.php
+      UserGroupsWereChanged.php
+      UserLoggedIn.php
+      UserLoggedOut.php
+      UserPasswordWasChanged.php
+      UserWasActivated.php
+      UserWasDeleted.php
+      UserWasRegistered.php
+      UserWasRenamed.php
+      UserWillBeDeleted.php
+      UserWillBeSaved.php
+     }
+     Extension=Extension {
+      Extension.php
+      ExtensionManager.php
+      ExtensionServiceProvider.php
+     }
+     Formatter=Formatter {
+      Formatter.php
+      FormatterServiceProvider.php
+     }
+     Forum=Forum {
+      AuthenticationResponseFactory.php
+      ForumServiceProvider.php
+      Server.php
+      UrlGenerator.php
+      WebApp.php
+      Controller=Controller {
+       AbstractOAuth2Controller.php
+       AuthorizedWebAppController.php
+       ConfirmEmailController.php
+       DiscussionController.php
+       IndexController.php
+       LogInController.php
+       LogOutController.php
+       RegisterController.php
+       ResetPasswordController.php
+       SavePasswordController.php
+       WebAppController.php
+      }
+     }
+     Foundation=Foundation {
+      AbstractServer.php
+      AbstractServiceProvider.php
+      Application.php
+     }
+     Http=Http {
+      AbstractServer.php
+      AbstractUrlGenerator.php
+      AccessToken.php
+      FullStackServer.php
+      Rememberer.php
+      RouteCollection.php
+      SessionAuthenticator.php
+      Controller=Controller {
+       AbstractHtmlController.php
+       AbstractWebAppController.php
+       ControllerInterface.php
+      }
+      Exception=Exception {
+       MethodNotAllowedException.php
+       RouteNotFoundException.php
+       TokenMismatchException.php
+      }
+      Handler=Handler {
+       ControllerRouteHandler.php
+       RouteHandlerFactory.php
+      }
+      Middleware=Middleware {
+       AuthenticateWithHeader.php
+       AuthenticateWithSession.php
+       DispatchRoute.php
+       HandleErrors.php
+       ParseJsonBody.php
+       RememberFromCookie.php
+       SetLocale.php
+       StartSession.php
+      }
+      WebApp=WebApp {
+       AbstractWebApp.php
+       WebAppAssets.php
+       WebAppAssetsFactory.php
+       WebAppView.php
+       WebAppViewFactory.php
+      }
+     }
+     Install=Install {
+      InstallServiceProvider.php
+      Console=Console {
+       DataProviderInterface.php
+       DefaultsDataProvider.php
+       FileDataProvider.php
+       InstallCommand.php
+       UserDataProvider.php
+      }
+      Controller=Controller {
+       IndexController.php
+       InstallController.php
+      }
+      Prerequisite=Prerequisite {
+       AbstractPrerequisite.php
+       Composite.php
+       PhpExtensions.php
+       PhpVersion.php
+       PrerequisiteInterface.php
+       WritablePaths.php
+      }
+     }
+     Locale=Locale {
+      JsCompiler.php
+      LocaleManager.php
+      LocaleServiceProvider.php
+      Translator.php
+     }
+     Settings=Settings {
+      DatabaseSettingsRepository.php
+      MemoryCacheSettingsRepository.php
+      SettingsRepositoryInterface.php
+      SettingsServiceProvider.php
+     }
+     Update=Update {
+      UpdateServiceProvider.php
+      Console=Console {
+       MigrateCommand.php
+      }
+      Controller=Controller {
+       IndexController.php
+       UpdateController.php
+      }
+     }
+     Util=Util {
+      Str.php
+     }
+    }
+    stubs=stubs {
+     migrations=migrations {
+      blank.stub
+      create.stub
+      update.stub
+     }
+    }
+    tests=tests {
+     Flarum=Flarum {
+      Api=Api {
+       Handler=Handler {
+        FloodingExceptionHandlerTest.php
+        IlluminateValidationExceptionHandlerTest.php
+        InvalidAccessTokenExceptionHandlerTest.php
+        InvalidConfirmationTokenExceptionHandlerTest.php
+        MethodNotAllowedExceptionHandlerTest.php
+        ModelNotFoundExceptionHandlerTest.php
+        PermissionDeniedExceptionHandlerTest.php
+        RouteNotFoundExceptionHandlerTest.php
+        TokenMismatchExceptionHandlerTest.php
+        ValidationExceptionHandlerTest.php
+       }
+      }
+      Core=Core {
+       Settings=Settings {
+        DatabaseSettingsRepositoryTest.php
+        MemoryCacheSettingsRepositoryTest.php
+       }
+      }
+     }
+     Test=Test {
+      TestCase.php
+     }
+    }
+    views=views {
+     admin.blade.php
+     app.blade.php
+     content.blade.php
+     discussion.blade.php
+     forum.blade.php
+     index.blade.php
+     reset.blade.php
+     install=install {
+      app.php
+      errors.php
+      install.php
+      logo.svg
+      update.php
+     }
+    }
+   }
+   flarum-ext-akismet=flarum-ext-akismet {
+    LICENSE
+    bootstrap.php
+    composer.json
+    icon.jpg
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        AkismetSettingsModal.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+    }
+    migrations=migrations {
+     2015_10_31_040129_add_is_spam_to_posts.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Listener=Listener {
+      AddClientAssets.php
+      FilterNewPosts.php
+     }
+    }
+   }
+   flarum-ext-approval=flarum-ext-approval {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_09_21_011527_add_is_approved_to_discussions.php
+     2015_09_21_011706_add_is_approved_to_posts.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Access=Access {
+      TagPolicy.php
+     }
+     Event=Event {
+      PostWasApproved.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddPostApprovalAttributes.php
+      ApproveContent.php
+      HideUnapprovedContent.php
+      UnapproveNewContent.php
+     }
+    }
+   }
+   flarum-ext-auth-facebook=flarum-ext-auth-facebook {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        FacebookSettingsModal.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     FacebookAuthController.php
+     Listener=Listener {
+      AddClientAssets.php
+      AddFacebookAuthRoute.php
+     }
+    }
+   }
+   flarum-ext-auth-github=flarum-ext-auth-github {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        GithubSettingsModal.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     GitHubAuthController.php
+     Listener=Listener {
+      AddClientAssets.php
+      AddGitHubAuthRoute.php
+     }
+    }
+   }
+   flarum-ext-auth-twitter=flarum-ext-auth-twitter {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        TwitterSettingsModal.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_09_15_000000_add_twitter_id_to_users_table.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     TwitterAuthController.php
+     Listener=Listener {
+      AddClientAssets.php
+      AddTwitterAuthRoute.php
+     }
+    }
+   }
+   flarum-ext-bbcode=flarum-ext-bbcode {
+    LICENSE
+    bootstrap.php
+    composer.json
+    src=src {
+     Listener=Listener {
+      FormatBBCode.php
+     }
+    }
+   }
+   flarum-ext-emoji=flarum-ext-emoji {
+    LICENSE
+    bootstrap.php
+    composer.json
+    icon.svg
+    js=js {
+     forum=forum {
+      Gulpfile.js
+      bower.json
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addComposerAutocomplete.js
+       main.js
+       components=components {
+        AutocompleteDropdown.js
+       }
+       helpers=helpers {
+        emojiMap.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Listener=Listener {
+      AddClientAssets.php
+      FormatEmoticons.php
+     }
+    }
+   }
+   flarum-ext-english=flarum-ext-english {
+    LICENSE
+    bootstrap.php
+    composer.json
+    icon.svg
+    locale=locale {
+     core.yml
+     flarum-akismet.yml
+     flarum-approval.yml
+     flarum-auth-facebook.yml
+     flarum-auth-github.yml
+     flarum-auth-twitter.yml
+     flarum-flags.yml
+     flarum-likes.yml
+     flarum-lock.yml
+     flarum-mentions.yml
+     flarum-pusher.yml
+     flarum-sticky.yml
+     flarum-subscriptions.yml
+     flarum-suspend.yml
+     flarum-tags.yml
+     validation.yml
+    }
+   }
+   flarum-ext-flags=flarum-ext-flags {
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        FlagsSettingsModal.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addFlagControl.js
+       addFlagsDropdown.js
+       addFlagsToPosts.js
+       main.js
+       components=components {
+        FlagList.js
+        FlagPostModal.js
+        FlagsDropdown.js
+        FlagsPage.js
+       }
+       models=models {
+        Flag.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_09_02_000000_add_flags_read_time_to_users_table.php
+     2015_09_02_000000_create_flags_table.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Flag.php
+     Api=Api {
+      Controller=Controller {
+       CreateFlagController.php
+       DeleteFlagsController.php
+       ListFlagsController.php
+      }
+      Serializer=Serializer {
+       FlagSerializer.php
+      }
+     }
+     Command=Command {
+      CreateFlag.php
+      CreateFlagHandler.php
+      DeleteFlags.php
+      DeleteFlagsHandler.php
+     }
+     Event=Event {
+      FlagsWillBeDeleted.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddFlagsApi.php
+      AddPostFlagsRelationship.php
+     }
+    }
+   }
+   flarum-ext-likes=flarum-ext-likes {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addLikeAction.js
+       addLikesList.js
+       main.js
+       components=components {
+        PostLikedNotification.js
+        PostLikesModal.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_05_11_000000_create_posts_likes_table.php
+     2015_09_04_000000_add_default_like_permissions.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Event=Event {
+      PostWasLiked.php
+      PostWasUnliked.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddPostLikesRelationship.php
+      SaveLikesToDatabase.php
+      SendNotificationWhenPostIsLiked.php
+     }
+     Notification=Notification {
+      PostLikedBlueprint.php
+     }
+    }
+   }
+   flarum-ext-lock=flarum-ext-lock {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addLockBadge.js
+       addLockControl.js
+       main.js
+       components=components {
+        DiscussionLockedNotification.js
+        DiscussionLockedPost.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_02_24_000000_add_locked_to_discussions.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Access=Access {
+      DiscussionPolicy.php
+     }
+     Event=Event {
+      DiscussionWasLocked.php
+      DiscussionWasUnlocked.php
+     }
+     Gambit=Gambit {
+      LockedGambit.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddDiscussionLockedAttributes.php
+      AddLockedGambit.php
+      CreatePostWhenDiscussionIsLocked.php
+      SaveLockedToDatabase.php
+     }
+     Notification=Notification {
+      DiscussionLockedBlueprint.php
+     }
+     Post=Post {
+      DiscussionLockedPost.php
+     }
+    }
+   }
+   flarum-ext-markdown=flarum-ext-markdown {
+    LICENSE
+    bootstrap.php
+    composer.json
+    icon.svg
+    src=src {
+     Listener=Listener {
+      FormatMarkdown.php
+     }
+    }
+   }
+   flarum-ext-mentions=flarum-ext-mentions {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     forum=forum {
+      Gulpfile.js
+      bower.json
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addComposerAutocomplete.js
+       addMentionedByList.js
+       addPostMentionPreviews.js
+       addPostQuoteButton.js
+       addPostReplyAction.js
+       main.js
+       components=components {
+        AutocompleteDropdown.js
+        MentionsUserPage.js
+        PostMentionedNotification.js
+        PostQuoteButton.js
+        UserMentionedNotification.js
+       }
+       utils=utils {
+        reply.js
+        selectedText.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_05_11_000000_create_mentions_posts_table.php
+     2015_05_11_000000_create_mentions_users_table.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Listener=Listener {
+      AddClientAssets.php
+      AddFilterByMentions.php
+      AddPostMentionedByRelationship.php
+      FormatPostMentions.php
+      FormatUserMentions.php
+      UpdatePostMentionsMetadata.php
+      UpdateUserMentionsMetadata.php
+     }
+     Notification=Notification {
+      PostMentionedBlueprint.php
+      UserMentionedBlueprint.php
+     }
+    }
+    views=views {
+     emails=emails {
+      postMentioned.blade.php
+      userMentioned.blade.php
+     }
+    }
+   }
+   flarum-ext-pusher=flarum-ext-pusher {
+    LICENSE
+    bootstrap.php
+    composer.json
+    icon.png
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        PusherSettingsModal.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Api=Api {
+      Controller=Controller {
+       AuthController.php
+      }
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddPusherApi.php
+      PushNewPosts.php
+     }
+    }
+   }
+   flarum-ext-sticky=flarum-ext-sticky {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addStickyBadge.js
+       addStickyControl.js
+       addStickyExcerpt.js
+       main.js
+       components=components {
+        DiscussionStickiedPost.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_02_24_000000_add_sticky_to_discussions.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Event=Event {
+      DiscussionWasStickied.php
+      DiscussionWasUnstickied.php
+     }
+     Gambit=Gambit {
+      StickyGambit.php
+     }
+     Listener=Listener {
+      AddApiAttributes.php
+      AddClientAssets.php
+      CreatePostWhenDiscussionIsStickied.php
+      PinStickiedDiscussionsToTop.php
+      SaveStickyToDatabase.php
+     }
+     Post=Post {
+      DiscussionStickiedPost.php
+     }
+    }
+   }
+   flarum-ext-subscriptions=flarum-ext-subscriptions {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addSubscriptionBadge.js
+       addSubscriptionControls.js
+       addSubscriptionFilter.js
+       addSubscriptionSettings.js
+       main.js
+       components=components {
+        NewPostNotification.js
+        SubscriptionMenu.js
+        SubscriptionMenuItem.js
+       }
+      }
+     }
+    }
+    less=less {
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_05_11_000000_add_subscription_to_users_discussions_table.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Gambit=Gambit {
+      SubscriptionGambit.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddDiscussionSubscriptionAttribute.php
+      FilterDiscussionListBySubscription.php
+      FollowAfterReply.php
+      SaveSubscriptionToDatabase.php
+      SendNotificationWhenReplyIsPosted.php
+     }
+     Notification=Notification {
+      NewPostBlueprint.php
+     }
+    }
+    views=views {
+     emails=emails {
+      newPost.blade.php
+     }
+    }
+   }
+   flarum-ext-suspend=flarum-ext-suspend {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       main.js
+       components=components {
+        SuspendUserModal.js
+       }
+      }
+     }
+    }
+    less=less {
+     admin=admin {
+      extension.less
+     }
+     forum=forum {
+      extension.less
+     }
+    }
+    migrations=migrations {
+     2015_05_11_000000_add_suspended_until_to_users_table.php
+     2015_09_14_000000_rename_suspended_until_column.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     SuspendValidator.php
+     Access=Access {
+      UserPolicy.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddUserSuspendAttributes.php
+      RevokeAccessFromSuspendedUsers.php
+      SaveSuspensionToDatabase.php
+     }
+    }
+   }
+   flarum-ext-tags=flarum-ext-tags {
+    LICENSE
+    bootstrap.php
+    composer.json
+    js=js {
+     admin=admin {
+      Gulpfile.js
+      bower.json
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addTagChangePermission.js
+       addTagPermission.js
+       addTagsHomePageOption.js
+       addTagsPane.js
+       addTagsPermissionScope.js
+       main.js
+       components=components {
+        EditTagModal.js
+        TagSettingsModal.js
+        TagsPage.js
+       }
+      }
+     }
+     forum=forum {
+      Gulpfile.js
+      package.json
+      dist=dist {
+       extension.js
+      }
+      src=src {
+       addTagComposer.js
+       addTagControl.js
+       addTagFilter.js
+       addTagLabels.js
+       addTagList.js
+       main.js
+       components=components {
+        DiscussionTaggedPost.js
+        TagDiscussionModal.js
+        TagHero.js
+        TagLinkButton.js
+        TagsPage.js
+       }
+      }
+     }
+     lib=lib {
+      helpers=helpers {
+       tagIcon.js
+       tagLabel.js
+       tagsLabel.js
+      }
+      models=models {
+       Tag.js
+      }
+      utils=utils {
+       sortTags.js
+      }
+     }
+    }
+    less=less {
+     admin=admin {
+      EditTagModal.less
+      TagSettingsModal.less
+      TagsPage.less
+      extension.less
+     }
+     forum=forum {
+      TagCloud.less
+      TagDiscussionModal.less
+      TagTiles.less
+      extension.less
+     }
+     lib=lib {
+      TagIcon.less
+      TagLabel.less
+     }
+    }
+    migrations=migrations {
+     2015_02_24_000000_create_discussions_tags_table.php
+     2015_02_24_000000_create_tags_table.php
+     2015_02_24_000000_create_users_tags_table.php
+     2015_02_24_000000_set_default_settings.php
+     2015_10_19_061223_make_slug_unique.php
+    }
+    scripts=scripts {
+     compile.sh
+    }
+    src=src {
+     Tag.php
+     TagRepository.php
+     TagValidator.php
+     Access=Access {
+      DiscussionPolicy.php
+      FlagPolicy.php
+      GlobalPolicy.php
+      TagPolicy.php
+     }
+     Api=Api {
+      Controller=Controller {
+       CreateTagController.php
+       DeleteTagController.php
+       ListTagsController.php
+       OrderTagsController.php
+       UpdateTagController.php
+      }
+      Serializer=Serializer {
+       TagSerializer.php
+      }
+     }
+     Command=Command {
+      CreateTag.php
+      CreateTagHandler.php
+      DeleteTag.php
+      DeleteTagHandler.php
+      EditTag.php
+      EditTagHandler.php
+     }
+     Event=Event {
+      DiscussionWasTagged.php
+     }
+     Gambit=Gambit {
+      TagGambit.php
+     }
+     Listener=Listener {
+      AddClientAssets.php
+      AddDiscussionTagsRelationship.php
+      AddForumTagsRelationship.php
+      AddTagsApi.php
+      CreatePostWhenTagsAreChanged.php
+      FilterDiscussionListByTags.php
+      FilterPostsQueryByTag.php
+      SaveTagsToDatabase.php
+      UpdateTagMetadata.php
+     }
+     Post=Post {
+      DiscussionTaggedPost.php
+     }
+    }
+   }
+  }
+  franzl=franzl {
+   studio=studio {
+    LICENSE
+    README.md
+    composer.json
+    phpspec.yml
+    bin=bin {
+     studio
+    }
+    spec=spec {
+     Config=Config {
+      Version2SerializerSpec.php
+     }
+    }
+    src=src {
+     Package.php
+     Composer=Composer {
+      StudioPlugin.php
+     }
+     Config=Config {
+      Config.php
+      Serializer.php
+      Version1Serializer.php
+      Version2Serializer.php
+      VersionedSerializer.php
+     }
+     Console=Console {
+      BaseCommand.php
+      CreateCommand.php
+      LoadCommand.php
+      ScrapCommand.php
+      UnloadCommand.php
+     }
+     Creator=Creator {
+      CreatorInterface.php
+      GitRepoCreator.php
+      GitSubmoduleCreator.php
+      SkeletonCreator.php
+     }
+     Filesystem=Filesystem {
+      Directory.php
+     }
+     Parts=Parts {
+      AbstractPart.php
+      ConsoleInput.php
+      PartInputInterface.php
+      PartInterface.php
+      Base=Base {
+       Part.php
+       stubs=stubs {
+        gitignore.txt
+       }
+      }
+      Composer=Composer {
+       Part.php
+       stubs=stubs {
+        src=src {
+         Example.php
+        }
+       }
+      }
+      License=License {
+       Part.php
+      }
+      PhpSpec=PhpSpec {
+       Part.php
+       stubs=stubs {
+        phpspec.yml
+       }
+      }
+      PhpUnit=PhpUnit {
+       Part.php
+       stubs=stubs {
+        phpunit.xml
+        tests=tests {
+         ExampleTest.php
+        }
+       }
+      }
+      TravisCI=TravisCI {
+       Part.php
+       stubs=stubs {
+       }
+      }
+     }
+     Shell=Shell {
+      Shell.php
+     }
+    }
+   }
+   whoops-middleware=whoops-middleware {
+    README.md
+    composer.json
+    phpunit.xml
+    src=src {
+     ErrorMiddleware.php
+     FormatNegotiator.php
+     Middleware.php
+     WhoopsRunner.php
+    }
+    tests=tests {
+     FormatNegotiatorTest.php
+    }
+   }
+  }
+  guzzlehttp=guzzlehttp {
+   guzzle=guzzle {
+    CHANGELOG.md
+    LICENSE
+    README.md
+    UPGRADING.md
+    composer.json
+    src=src {
+     Client.php
+     ClientInterface.php
+     HandlerStack.php
+     MessageFormatter.php
+     Middleware.php
+     Pool.php
+     PrepareBodyMiddleware.php
+     RedirectMiddleware.php
+     RequestOptions.php
+     RetryMiddleware.php
+     TransferStats.php
+     UriTemplate.php
+     functions.php
+     functions_include.php
+     Cookie=Cookie {
+      CookieJar.php
+      CookieJarInterface.php
+      FileCookieJar.php
+      SessionCookieJar.php
+      SetCookie.php
+     }
+     Exception=Exception {
+      BadResponseException.php
+      ClientException.php
+      ConnectException.php
+      GuzzleException.php
+      RequestException.php
+      SeekException.php
+      ServerException.php
+      TooManyRedirectsException.php
+      TransferException.php
+     }
+     Handler=Handler {
+      CurlFactory.php
+      CurlFactoryInterface.php
+      CurlHandler.php
+      CurlMultiHandler.php
+      EasyHandle.php
+      MockHandler.php
+      Proxy.php
+      StreamHandler.php
+     }
+    }
+   }
+   promises=promises {
+    CHANGELOG.md
+    LICENSE
+    Makefile
+    README.md
+    composer.json
+    src=src {
+     AggregateException.php
+     CancellationException.php
+     Coroutine.php
+     EachPromise.php
+     FulfilledPromise.php
+     Promise.php
+     PromiseInterface.php
+     PromisorInterface.php
+     RejectedPromise.php
+     RejectionException.php
+     TaskQueue.php
+     TaskQueueInterface.php
+     functions.php
+     functions_include.php
+    }
+   }
+   psr7=psr7 {
+    CHANGELOG.md
+    LICENSE
+    README.md
+    composer.json
+    src=src {
+     AppendStream.php
+     BufferStream.php
+     CachingStream.php
+     DroppingStream.php
+     FnStream.php
+     InflateStream.php
+     LazyOpenStream.php
+     LimitStream.php
+     MessageTrait.php
+     MultipartStream.php
+     NoSeekStream.php
+     PumpStream.php
+     Request.php
+     Response.php
+     ServerRequest.php
+     Stream.php
+     StreamDecoratorTrait.php
+     StreamWrapper.php
+     UploadedFile.php
+     Uri.php
+     UriNormalizer.php
+     UriResolver.php
+     functions.php
+     functions_include.php
+    }
+   }
+  }
+  http-interop=http-interop {
+   http-middleware=http-middleware {
+    LICENSE
+    README.md
+    composer.json
+    src=src {
+     DelegateInterface.php
+     MiddlewareInterface.php
+     ServerMiddlewareInterface.php
+    }
+   }
+  }
+  illuminate=illuminate {
+   bus=bus {
+    BusServiceProvider.php
+    Dispatcher.php
+    MarshalException.php
+    Queueable.php
+    composer.json
+   }
+   cache=cache {
+    ApcStore.php
+    ApcWrapper.php
+    ArrayStore.php
+    CacheManager.php
+    CacheServiceProvider.php
+    DatabaseStore.php
+    FileStore.php
+    MemcachedConnector.php
+    MemcachedStore.php
+    NullStore.php
+    RateLimiter.php
+    RedisStore.php
+    RedisTaggedCache.php
+    Repository.php
+    TagSet.php
+    TaggableStore.php
+    TaggedCache.php
+    WinCacheStore.php
+    XCacheStore.php
+    composer.json
+    Console=Console {
+     CacheTableCommand.php
+     ClearCommand.php
+     stubs=stubs {
+      cache.stub
+     }
+    }
+   }
+   config=config {
+    Repository.php
+    composer.json
+   }
+   container=container {
+    BindingResolutionException.php
+    Container.php
+    ContextualBindingBuilder.php
+    composer.json
+   }
+   contracts=contracts {
+    composer.json
+    Auth=Auth {
+     Authenticatable.php
+     CanResetPassword.php
+     Guard.php
+     PasswordBroker.php
+     Registrar.php
+     UserProvider.php
+     Access=Access {
+      Authorizable.php
+      Gate.php
+     }
+    }
+    Broadcasting=Broadcasting {
+     Broadcaster.php
+     Factory.php
+     ShouldBroadcast.php
+     ShouldBroadcastNow.php
+    }
+    Bus=Bus {
+     Dispatcher.php
+     HandlerResolver.php
+     QueueingDispatcher.php
+     SelfHandling.php
+    }
+    Cache=Cache {
+     Factory.php
+     Repository.php
+     Store.php
+    }
+    Config=Config {
+     Repository.php
+    }
+    Console=Console {
+     Application.php
+     Kernel.php
+    }
+    Container=Container {
+     BindingResolutionException.php
+     Container.php
+     ContextualBindingBuilder.php
+    }
+    Cookie=Cookie {
+     Factory.php
+     QueueingFactory.php
+    }
+    Database=Database {
+     ModelIdentifier.php
+    }
+    Debug=Debug {
+     ExceptionHandler.php
+    }
+    Encryption=Encryption {
+     DecryptException.php
+     EncryptException.php
+     Encrypter.php
+    }
+    Events=Events {
+     Dispatcher.php
+    }
+    Filesystem=Filesystem {
+     Cloud.php
+     Factory.php
+     FileNotFoundException.php
+     Filesystem.php
+    }
+    Foundation=Foundation {
+     Application.php
+    }
+    Hashing=Hashing {
+     Hasher.php
+    }
+    Http=Http {
+     Kernel.php
+    }
+    Logging=Logging {
+     Log.php
+    }
+    Mail=Mail {
+     MailQueue.php
+     Mailer.php
+    }
+    Pagination=Pagination {
+     LengthAwarePaginator.php
+     Paginator.php
+     Presenter.php
+    }
+    Pipeline=Pipeline {
+     Hub.php
+     Pipeline.php
+    }
+    Queue=Queue {
+     EntityNotFoundException.php
+     EntityResolver.php
+     Factory.php
+     Job.php
+     Monitor.php
+     Queue.php
+     QueueableEntity.php
+     ShouldBeQueued.php
+     ShouldQueue.php
+    }
+    Redis=Redis {
+     Database.php
+    }
+    Routing=Routing {
+     Middleware.php
+     Registrar.php
+     ResponseFactory.php
+     TerminableMiddleware.php
+     UrlGenerator.php
+     UrlRoutable.php
+    }
+    Support=Support {
+     Arrayable.php
+     Htmlable.php
+     Jsonable.php
+     MessageBag.php
+     MessageProvider.php
+     Renderable.php
+    }
+    Validation=Validation {
+     Factory.php
+     UnauthorizedException.php
+     ValidatesWhenResolved.php
+     ValidationException.php
+     Validator.php
+    }
+    View=View {
+     Factory.php
+     View.php
+    }
+   }
+   database=database {
+    Connection.php
+    ConnectionInterface.php
+    ConnectionResolver.php
+    ConnectionResolverInterface.php
+    DatabaseManager.php
+    DatabaseServiceProvider.php
+    DetectsLostConnections.php
+    Grammar.php
+    MigrationServiceProvider.php
+    MySqlConnection.php
+    PostgresConnection.php
+    QueryException.php
+    README.md
+    SQLiteConnection.php
+    SeedServiceProvider.php
+    Seeder.php
+    SqlServerConnection.php
+    composer.json
+    Capsule=Capsule {
+     Manager.php
+    }
+    Connectors=Connectors {
+     ConnectionFactory.php
+     Connector.php
+     ConnectorInterface.php
+     MySqlConnector.php
+     PostgresConnector.php
+     SQLiteConnector.php
+     SqlServerConnector.php
+    }
+    Console=Console {
+     Migrations=Migrations {
+      BaseCommand.php
+      InstallCommand.php
+      MigrateCommand.php
+      MigrateMakeCommand.php
+      RefreshCommand.php
+      ResetCommand.php
+      RollbackCommand.php
+      StatusCommand.php
+     }
+     Seeds=Seeds {
+      SeedCommand.php
+      SeederMakeCommand.php
+      stubs=stubs {
+       seeder.stub
+      }
+     }
+    }
+    Eloquent=Eloquent {
+     Builder.php
+     Collection.php
+     Factory.php
+     FactoryBuilder.php
+     MassAssignmentException.php
+     Model.php
+     ModelNotFoundException.php
+     QueueEntityResolver.php
+     ScopeInterface.php
+     SoftDeletes.php
+     SoftDeletingScope.php
+     Relations=Relations {
+      BelongsTo.php
+      BelongsToMany.php
+      HasMany.php
+      HasManyThrough.php
+      HasOne.php
+      HasOneOrMany.php
+      MorphMany.php
+      MorphOne.php
+      MorphOneOrMany.php
+      MorphPivot.php
+      MorphTo.php
+      MorphToMany.php
+      Pivot.php
+      Relation.php
+     }
+    }
+    Migrations=Migrations {
+     DatabaseMigrationRepository.php
+     Migration.php
+     MigrationCreator.php
+     MigrationRepositoryInterface.php
+     Migrator.php
+     stubs=stubs {
+      blank.stub
+      create.stub
+      update.stub
+     }
+    }
+    Query=Query {
+     Builder.php
+     Expression.php
+     JoinClause.php
+     Grammars=Grammars {
+      Grammar.php
+      MySqlGrammar.php
+      PostgresGrammar.php
+      SQLiteGrammar.php
+      SqlServerGrammar.php
+     }
+     Processors=Processors {
+      MySqlProcessor.php
+      PostgresProcessor.php
+      Processor.php
+      SQLiteProcessor.php
+      SqlServerProcessor.php
+     }
+    }
+    Schema=Schema {
+     Blueprint.php
+     Builder.php
+     MySqlBuilder.php
+     PostgresBuilder.php
+     Grammars=Grammars {
+      Grammar.php
+      MySqlGrammar.php
+      PostgresGrammar.php
+      SQLiteGrammar.php
+      SqlServerGrammar.php
+     }
+    }
+   }
+   events=events {
+    CallQueuedHandler.php
+    Dispatcher.php
+    EventServiceProvider.php
+    composer.json
+   }
+   filesystem=filesystem {
+    ClassFinder.php
+    Filesystem.php
+    FilesystemAdapter.php
+    FilesystemManager.php
+    FilesystemServiceProvider.php
+    composer.json
+   }
+   hashing=hashing {
+    BcryptHasher.php
+    HashServiceProvider.php
+    composer.json
+   }
+   mail=mail {
+    MailServiceProvider.php
+    Mailer.php
+    Message.php
+    TransportManager.php
+    composer.json
+    Transport=Transport {
+     LogTransport.php
+     MailgunTransport.php
+     MandrillTransport.php
+     SesTransport.php
+     Transport.php
+    }
+   }
+   pipeline=pipeline {
+    Hub.php
+    Pipeline.php
+    PipelineServiceProvider.php
+    composer.json
+   }
+   support=support {
+    AggregateServiceProvider.php
+    Arr.php
+    ClassLoader.php
+    Collection.php
+    Fluent.php
+    HtmlString.php
+    Manager.php
+    MessageBag.php
+    NamespacedItemResolver.php
+    Pluralizer.php
+    ServiceProvider.php
+    Str.php
+    ViewErrorBag.php
+    composer.json
+    helpers.php
+    Debug=Debug {
+     Dumper.php
+     HtmlDumper.php
+    }
+    Facades=Facades {
+     App.php
+     Artisan.php
+     Auth.php
+     Blade.php
+     Bus.php
+     Cache.php
+     Config.php
+     Cookie.php
+     Crypt.php
+     DB.php
+     Event.php
+     Facade.php
+     File.php
+     Gate.php
+     Hash.php
+     Input.php
+     Lang.php
+     Log.php
+     Mail.php
+     Password.php
+     Queue.php
+     Redirect.php
+     Redis.php
+     Request.php
+     Response.php
+     Route.php
+     Schema.php
+     Session.php
+     Storage.php
+     URL.php
+     Validator.php
+     View.php
+    }
+    Traits=Traits {
+     CapsuleManagerTrait.php
+     Macroable.php
+    }
+   }
+   validation=validation {
+    DatabasePresenceVerifier.php
+    Factory.php
+    PresenceVerifierInterface.php
+    ValidatesWhenResolvedTrait.php
+    ValidationServiceProvider.php
+    Validator.php
+    composer.json
+   }
+   view=view {
+    Expression.php
+    Factory.php
+    FileViewFinder.php
+    View.php
+    ViewFinderInterface.php
+    ViewServiceProvider.php
+    composer.json
+    Compilers=Compilers {
+     BladeCompiler.php
+     Compiler.php
+     CompilerInterface.php
+    }
+    Engines=Engines {
+     CompilerEngine.php
+     Engine.php
+     EngineInterface.php
+     EngineResolver.php
+     PhpEngine.php
+    }
+    Middleware=Middleware {
+     ShareErrorsFromSession.php
+    }
+   }
+  }
+  intervention=intervention {
+   image=image {
+    LICENSE
+    composer.json
+    provides.json
+    src=src {
+     Intervention=Intervention {
+      Image=Image {
+       AbstractColor.php
+       AbstractDecoder.php
+       AbstractDriver.php
+       AbstractEncoder.php
+       AbstractFont.php
+       AbstractShape.php
+       Constraint.php
+       File.php
+       Image.php
+       ImageManager.php
+       ImageManagerStatic.php
+       ImageServiceProvider.php
+       ImageServiceProviderLaravel4.php
+       ImageServiceProviderLaravel5.php
+       ImageServiceProviderLeague.php
+       ImageServiceProviderLumen.php
+       Point.php
+       Response.php
+       Size.php
+       Commands=Commands {
+        AbstractCommand.php
+        Argument.php
+        ChecksumCommand.php
+        CircleCommand.php
+        EllipseCommand.php
+        ExifCommand.php
+        IptcCommand.php
+        LineCommand.php
+        OrientateCommand.php
+        PolygonCommand.php
+        PsrResponseCommand.php
+        RectangleCommand.php
+        ResponseCommand.php
+        StreamCommand.php
+        TextCommand.php
+       }
+       Exception=Exception {
+        ImageException.php
+        InvalidArgumentException.php
+        MissingDependencyException.php
+        NotFoundException.php
+        NotReadableException.php
+        NotSupportedException.php
+        NotWritableException.php
+        RuntimeException.php
+       }
+       Facades=Facades {
+        Image.php
+       }
+       Filters=Filters {
+        DemoFilter.php
+        FilterInterface.php
+       }
+       Gd=Gd {
+        Color.php
+        Decoder.php
+        Driver.php
+        Encoder.php
+        Font.php
+        Commands=Commands {
+         BackupCommand.php
+         BlurCommand.php
+         BrightnessCommand.php
+         ColorizeCommand.php
+         ContrastCommand.php
+         CropCommand.php
+         DestroyCommand.php
+         FillCommand.php
+         FitCommand.php
+         FlipCommand.php
+         GammaCommand.php
+         GetSizeCommand.php
+         GreyscaleCommand.php
+         HeightenCommand.php
+         InsertCommand.php
+         InterlaceCommand.php
+         InvertCommand.php
+         LimitColorsCommand.php
+         MaskCommand.php
+         OpacityCommand.php
+         PickColorCommand.php
+         PixelCommand.php
+         PixelateCommand.php
+         ResetCommand.php
+         ResizeCanvasCommand.php
+         ResizeCommand.php
+         RotateCommand.php
+         SharpenCommand.php
+         TrimCommand.php
+         WidenCommand.php
+        }
+        Shapes=Shapes {
+         CircleShape.php
+         EllipseShape.php
+         LineShape.php
+         PolygonShape.php
+         RectangleShape.php
+        }
+       }
+       Imagick=Imagick {
+        Color.php
+        Decoder.php
+        Driver.php
+        Encoder.php
+        Font.php
+        Commands=Commands {
+         BackupCommand.php
+         BlurCommand.php
+         BrightnessCommand.php
+         ColorizeCommand.php
+         ContrastCommand.php
+         CropCommand.php
+         DestroyCommand.php
+         ExifCommand.php
+         FillCommand.php
+         FitCommand.php
+         FlipCommand.php
+         GammaCommand.php
+         GetSizeCommand.php
+         GreyscaleCommand.php
+         HeightenCommand.php
+         InsertCommand.php
+         InterlaceCommand.php
+         InvertCommand.php
+         LimitColorsCommand.php
+         MaskCommand.php
+         OpacityCommand.php
+         PickColorCommand.php
+         PixelCommand.php
+         PixelateCommand.php
+         ResetCommand.php
+         ResizeCanvasCommand.php
+         ResizeCommand.php
+         RotateCommand.php
+         SharpenCommand.php
+         TrimCommand.php
+         WidenCommand.php
+        }
+        Shapes=Shapes {
+         CircleShape.php
+         EllipseShape.php
+         LineShape.php
+         PolygonShape.php
+         RectangleShape.php
+        }
+       }
+      }
+     }
+     config=config {
+      config.php
+     }
+    }
+   }
+  }
+  ircmaxell=ircmaxell {
+   random-lib=random-lib {
+    LICENSE
+    Makefile
+    README.md
+    composer.json
+    phpunit.xml.dist
+    lib=lib {
+     RandomLib=RandomLib {
+      AbstractMcryptMixer.php
+      AbstractMixer.php
+      AbstractSource.php
+      Factory.php
+      Generator.php
+      Mixer.php
+      Source.php
+      Mixer=Mixer {
+       Hash.php
+       McryptRijndael128.php
+       XorMixer.php
+      }
+      Source=Source {
+       CAPICOM.php
+       MTRand.php
+       MicroTime.php
+       OpenSSL.php
+       Rand.php
+       Random.php
+       RandomBytes.php
+       Sodium.php
+       URandom.php
+       UniqID.php
+      }
+     }
+    }
+    test=test {
+     bootstrap.php
+     Mocks=Mocks {
+      AbstractMock.php
+      Random=Random {
+       Generator.php
+       Mixer.php
+       Source.php
+      }
+     }
+     Unit=Unit {
+      RandomLib=RandomLib {
+       FactoryTest.php
+       GeneratorStringTest.php
+       GeneratorTest.php
+       Mixer=Mixer {
+        HashTest.php
+        McryptRijndael128Test.php
+       }
+       Source=Source {
+        AbstractSourceTest.php
+        CAPICOMTest.php
+        MTRandTest.php
+        MicroTimeTest.php
+        RandTest.php
+        SodiumTest.php
+        URandomTest.php
+        UniqIDTest.php
+       }
+      }
+     }
+     Vectors=Vectors {
+      Random=Random {
+       GeneratorTest.php
+      }
+     }
+    }
+   }
+   security-lib=security-lib {
+    LICENSE
+    README.md
+    composer.json
+    composer.lock
+    phpunit.xml.dist
+    lib=lib {
+     SecurityLib=SecurityLib {
+      AbstractFactory.php
+      BaseConverter.php
+      BigMath.php
+      Enum.php
+      Hash.php
+      Strength.php
+      Util.php
+      composer.json
+      BigMath=BigMath {
+       BCMath.php
+       GMP.php
+       PHPMath.php
+      }
+     }
+    }
+    test=test {
+     bootstrap.php
+     Mocks=Mocks {
+      AbstractMock.php
+      Enum.php
+      Factory.php
+      Strength.php
+     }
+     Unit=Unit {
+      Core=Core {
+       AbstractFactoryTest.php
+       BaseConverterTest.php
+       BigMathTest.php
+       EnumTest.php
+       StrengthTest.php
+       UtilTest.php
+       BigMath=BigMath {
+        BCMathTest.php
+        GMPTest.php
+        PHPMathTest.php
+       }
+      }
+     }
+    }
+   }
+  }
+  jsthon=jsthon{
+   rum-ext-simplified-chinese=flarum-ext-simplified-chinese{
+	locale=locale{
+     config.js
+     core.yml
+     flarum-akismet.yml
+     flarum-approval.yml
+     flarum-auth-facebook.yml
+     flarum-auth-github.yml
+     flarum-auth-twitter.yml
+     flarum-flags.yml
+     flarum-likes.yml
+     flarum-lock.yml
+     flarum-mentions.yml
+     flarum-pusher.yml
+     flarum-sticky.yml
+     flarum-subscriptions.yml
+     flarum-suspend.yml
+     flarum-tags.yml
+     validation.yml
+	}
+   }
+  }
+  league=league {
+   flysystem=flysystem {
+    LICENSE
+    composer.json
+    docs=docs {
+     CNAME
+     api.md
+     caching.md
+     core-concepts.md
+     creating-an-adapter.md
+     index.md
+     installation.md
+     integrations.md
+     mount-manager.md
+     performance.md
+     plugins.md
+     recipes.md
+     upgrade-to-1.0.0.md
+     _data=_data {
+      images.yml
+      menu.yml
+      project.yml
+     }
+     _layouts=_layouts {
+      default.html
+     }
+     adapter=adapter {
+      aws-s3-v2.md
+      aws-s3-v3.md
+      azure.md
+      copy.md
+      dropbox.md
+      ftp.md
+      gridfs.md
+      local.md
+      memory.md
+      null-test.md
+      phpcr.md
+      rackspace.md
+      replicate.md
+      sftp.md
+      webdav.md
+      zip-archive.md
+     }
+    }
+    src=src {
+     AdapterInterface.php
+     Config.php
+     ConfigAwareTrait.php
+     Directory.php
+     Exception.php
+     File.php
+     FileExistsException.php
+     FileNotFoundException.php
+     Filesystem.php
+     FilesystemInterface.php
+     FilesystemNotFoundException.php
+     Handler.php
+     MountManager.php
+     NotSupportedException.php
+     PluginInterface.php
+     ReadInterface.php
+     RootViolationException.php
+     SafeStorage.php
+     UnreadableFileException.php
+     Util.php
+     Adapter=Adapter {
+      AbstractAdapter.php
+      AbstractFtpAdapter.php
+      CanOverwriteFiles.php
+      Ftp.php
+      Ftpd.php
+      Local.php
+      NullAdapter.php
+      SynologyFtp.php
+      Polyfill=Polyfill {
+       NotSupportingVisibilityTrait.php
+       StreamedCopyTrait.php
+       StreamedReadingTrait.php
+       StreamedTrait.php
+       StreamedWritingTrait.php
+      }
+     }
+     Plugin=Plugin {
+      AbstractPlugin.php
+      EmptyDir.php
+      ForcedCopy.php
+      ForcedRename.php
+      GetWithMetadata.php
+      ListFiles.php
+      ListPaths.php
+      ListWith.php
+      PluggableTrait.php
+      PluginNotFoundException.php
+     }
+     Util=Util {
+      ContentListingFormatter.php
+      MimeType.php
+      StreamHasher.php
+     }
+    }
+   }
+   oauth1-client=oauth1-client {
+    CONDUCT.md
+    CONTRIBUTING.md
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml
+    rfc5849.txt
+    resources=resources {
+     examples=examples {
+      tumblr.php
+      twitter.php
+      xing.php
+     }
+    }
+    src=src {
+     Client=Client {
+      Credentials=Credentials {
+       ClientCredentials.php
+       ClientCredentialsInterface.php
+       Credentials.php
+       CredentialsException.php
+       CredentialsInterface.php
+       TemporaryCredentials.php
+       TokenCredentials.php
+      }
+      Server=Server {
+       Bitbucket.php
+       Magento.php
+       Server.php
+       Trello.php
+       Tumblr.php
+       Twitter.php
+       User.php
+       Uservoice.php
+       Xing.php
+      }
+      Signature=Signature {
+       HmacSha1Signature.php
+       PlainTextSignature.php
+       Signature.php
+       SignatureInterface.php
+      }
+     }
+    }
+    tests=tests {
+     ClientCredentialsTest.php
+     HmacSha1SignatureTest.php
+     PlainTextSignatureTest.php
+     ServerTest.php
+     TrelloServerTest.php
+     XingServerTest.php
+     stubs=stubs {
+      ServerStub.php
+     }
+    }
+   }
+   oauth2-client=oauth2-client {
+    CHANGELOG.md
+    CONTRIBUTING.md
+    CREDITS.md
+    LICENSE
+    README.PROVIDER-GUIDE.md
+    README.PROVIDERS.md
+    README.UPGRADING.md
+    README.md
+    composer.json
+    src=src {
+     Grant=Grant {
+      AbstractGrant.php
+      AuthorizationCode.php
+      ClientCredentials.php
+      GrantFactory.php
+      Password.php
+      RefreshToken.php
+      Exception=Exception {
+       InvalidGrantException.php
+      }
+     }
+     Provider=Provider {
+      AbstractProvider.php
+      GenericProvider.php
+      GenericResourceOwner.php
+      ResourceOwnerInterface.php
+      Exception=Exception {
+       IdentityProviderException.php
+      }
+     }
+     Token=Token {
+      AccessToken.php
+     }
+     Tool=Tool {
+      ArrayAccessorTrait.php
+      BearerAuthorizationTrait.php
+      MacAuthorizationTrait.php
+      QueryBuilderTrait.php
+      RequestFactory.php
+      RequiredParameterTrait.php
+     }
+    }
+   }
+   oauth2-facebook=oauth2-facebook {
+    LICENSE
+    composer.json
+    src=src {
+     Grant=Grant {
+      FbExchangeToken.php
+     }
+     Provider=Provider {
+      AppSecretProof.php
+      Facebook.php
+      FacebookUser.php
+      Exception=Exception {
+       FacebookProviderException.php
+      }
+     }
+    }
+   }
+   oauth2-github=oauth2-github {
+    CHANGELOG.md
+    CONTRIBUTING.md
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml
+    src=src {
+     Provider=Provider {
+      Github.php
+      GithubResourceOwner.php
+      Exception=Exception {
+       GithubIdentityProviderException.php
+      }
+     }
+    }
+    test=test {
+     src=src {
+      Provider=Provider {
+       GithubResourceOwnerTest.php
+       GithubTest.php
+      }
+     }
+    }
+   }
+  }
+  matthiasmullie=matthiasmullie {
+   minify=minify {
+    CONTRIBUTING.md
+    LICENSE
+    composer.json
+    bin=bin {
+     minifycss
+     minifyjs
+    }
+    data=data {
+     js=js {
+      keywords_after.txt
+      keywords_before.txt
+      keywords_reserved.txt
+      operators.txt
+      operators_after.txt
+      operators_before.txt
+     }
+    }
+    src=src {
+     CSS.php
+     Exception.php
+     JS.php
+     Minify.php
+     Exceptions=Exceptions {
+      BasicException.php
+      FileImportException.php
+      IOException.php
+     }
+    }
+   }
+   path-converter=path-converter {
+    LICENSE
+    composer.json
+    src=src {
+     Converter.php
+     ConverterInterface.php
+     NoConverter.php
+    }
+   }
+  }
+  monolog=monolog {
+   monolog=monolog {
+    CHANGELOG.md
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml.dist
+    doc=doc {
+     01-usage.md
+     02-handlers-formatters-processors.md
+     03-utilities.md
+     04-extending.md
+     sockets.md
+    }
+    src=src {
+     Monolog=Monolog {
+      ErrorHandler.php
+      Logger.php
+      Registry.php
+      Formatter=Formatter {
+       ChromePHPFormatter.php
+       ElasticaFormatter.php
+       FlowdockFormatter.php
+       FluentdFormatter.php
+       FormatterInterface.php
+       GelfMessageFormatter.php
+       HtmlFormatter.php
+       JsonFormatter.php
+       LineFormatter.php
+       LogglyFormatter.php
+       LogstashFormatter.php
+       MongoDBFormatter.php
+       NormalizerFormatter.php
+       ScalarFormatter.php
+       WildfireFormatter.php
+      }
+      Handler=Handler {
+       AbstractHandler.php
+       AbstractProcessingHandler.php
+       AbstractSyslogHandler.php
+       AmqpHandler.php
+       BrowserConsoleHandler.php
+       BufferHandler.php
+       ChromePHPHandler.php
+       CouchDBHandler.php
+       CubeHandler.php
+       DeduplicationHandler.php
+       DoctrineCouchDBHandler.php
+       DynamoDbHandler.php
+       ElasticSearchHandler.php
+       ErrorLogHandler.php
+       FilterHandler.php
+       FingersCrossedHandler.php
+       FirePHPHandler.php
+       FleepHookHandler.php
+       FlowdockHandler.php
+       GelfHandler.php
+       GroupHandler.php
+       HandlerInterface.php
+       HandlerWrapper.php
+       HipChatHandler.php
+       IFTTTHandler.php
+       LogEntriesHandler.php
+       LogglyHandler.php
+       MailHandler.php
+       MandrillHandler.php
+       MissingExtensionException.php
+       MongoDBHandler.php
+       NativeMailerHandler.php
+       NewRelicHandler.php
+       NullHandler.php
+       PHPConsoleHandler.php
+       PsrHandler.php
+       PushoverHandler.php
+       RavenHandler.php
+       RedisHandler.php
+       RollbarHandler.php
+       RotatingFileHandler.php
+       SamplingHandler.php
+       SlackHandler.php
+       SlackWebhookHandler.php
+       SlackbotHandler.php
+       SocketHandler.php
+       StreamHandler.php
+       SwiftMailerHandler.php
+       SyslogHandler.php
+       SyslogUdpHandler.php
+       TestHandler.php
+       WhatFailureGroupHandler.php
+       ZendMonitorHandler.php
+       Curl=Curl {
+        Util.php
+       }
+       FingersCrossed=FingersCrossed {
+        ActivationStrategyInterface.php
+        ChannelLevelActivationStrategy.php
+        ErrorLevelActivationStrategy.php
+       }
+       Slack=Slack {
+        SlackRecord.php
+       }
+       SyslogUdp=SyslogUdp {
+        UdpSocket.php
+       }
+      }
+      Processor=Processor {
+       GitProcessor.php
+       IntrospectionProcessor.php
+       MemoryPeakUsageProcessor.php
+       MemoryProcessor.php
+       MemoryUsageProcessor.php
+       MercurialProcessor.php
+       ProcessIdProcessor.php
+       PsrLogMessageProcessor.php
+       TagProcessor.php
+       UidProcessor.php
+       WebProcessor.php
+      }
+     }
+    }
+    tests=tests {
+     Monolog=Monolog {
+      ErrorHandlerTest.php
+      LoggerTest.php
+      PsrLogCompatTest.php
+      RegistryTest.php
+      TestCase.php
+      Formatter=Formatter {
+       ChromePHPFormatterTest.php
+       ElasticaFormatterTest.php
+       FlowdockFormatterTest.php
+       FluentdFormatterTest.php
+       GelfMessageFormatterTest.php
+       JsonFormatterTest.php
+       LineFormatterTest.php
+       LogglyFormatterTest.php
+       LogstashFormatterTest.php
+       MongoDBFormatterTest.php
+       NormalizerFormatterTest.php
+       ScalarFormatterTest.php
+       WildfireFormatterTest.php
+      }
+      Handler=Handler {
+       AbstractHandlerTest.php
+       AbstractProcessingHandlerTest.php
+       AmqpHandlerTest.php
+       BrowserConsoleHandlerTest.php
+       BufferHandlerTest.php
+       ChromePHPHandlerTest.php
+       CouchDBHandlerTest.php
+       DeduplicationHandlerTest.php
+       DoctrineCouchDBHandlerTest.php
+       DynamoDbHandlerTest.php
+       ElasticSearchHandlerTest.php
+       ErrorLogHandlerTest.php
+       FilterHandlerTest.php
+       FingersCrossedHandlerTest.php
+       FirePHPHandlerTest.php
+       FleepHookHandlerTest.php
+       FlowdockHandlerTest.php
+       GelfHandlerLegacyTest.php
+       GelfHandlerTest.php
+       GelfMockMessagePublisher.php
+       GroupHandlerTest.php
+       HandlerWrapperTest.php
+       HipChatHandlerTest.php
+       LogEntriesHandlerTest.php
+       MailHandlerTest.php
+       MockRavenClient.php
+       MongoDBHandlerTest.php
+       NativeMailerHandlerTest.php
+       NewRelicHandlerTest.php
+       NullHandlerTest.php
+       PHPConsoleHandlerTest.php
+       PsrHandlerTest.php
+       PushoverHandlerTest.php
+       RavenHandlerTest.php
+       RedisHandlerTest.php
+       RollbarHandlerTest.php
+       RotatingFileHandlerTest.php
+       SamplingHandlerTest.php
+       SlackHandlerTest.php
+       SlackWebhookHandlerTest.php
+       SlackbotHandlerTest.php
+       SocketHandlerTest.php
+       StreamHandlerTest.php
+       SwiftMailerHandlerTest.php
+       SyslogHandlerTest.php
+       SyslogUdpHandlerTest.php
+       TestHandlerTest.php
+       UdpSocketTest.php
+       WhatFailureGroupHandlerTest.php
+       ZendMonitorHandlerTest.php
+       Fixtures=Fixtures {
+       }
+       Slack=Slack {
+        SlackRecordTest.php
+       }
+      }
+      Processor=Processor {
+       GitProcessorTest.php
+       IntrospectionProcessorTest.php
+       MemoryPeakUsageProcessorTest.php
+       MemoryUsageProcessorTest.php
+       MercurialProcessorTest.php
+       ProcessIdProcessorTest.php
+       PsrLogMessageProcessorTest.php
+       TagProcessorTest.php
+       UidProcessorTest.php
+       WebProcessorTest.php
+      }
+     }
+    }
+   }
+  }
+  nesbot=nesbot {
+   carbon=carbon {
+    LICENSE
+    composer.json
+    readme.md
+    src=src {
+     Carbon=Carbon {
+      Carbon.php
+      CarbonInterval.php
+      Exceptions=Exceptions {
+       InvalidDateException.php
+      }
+      Lang=Lang {
+       af.php
+       ar.php
+       az.php
+       bg.php
+       bn.php
+       ca.php
+       cs.php
+       da.php
+       de.php
+       el.php
+       en.php
+       eo.php
+       es.php
+       et.php
+       eu.php
+       fa.php
+       fi.php
+       fo.php
+       fr.php
+       gl.php
+       he.php
+       hr.php
+       hu.php
+       hy.php
+       id.php
+       it.php
+       ja.php
+       ka.php
+       km.php
+       ko.php
+       lt.php
+       lv.php
+       mk.php
+       ms.php
+       nl.php
+       no.php
+       pl.php
+       pt.php
+       pt_BR.php
+       ro.php
+       ru.php
+       sk.php
+       sl.php
+       sq.php
+       sr.php
+       sr_Cyrl_ME.php
+       sr_Latn_ME.php
+       sr_ME.php
+       sv.php
+       th.php
+       tr.php
+       uk.php
+       ur.php
+       uz.php
+       vi.php
+       zh.php
+       zh_TW.php
+      }
+     }
+    }
+   }
+  }
+  nikic=nikic {
+   fast-route=fast-route {
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml
+    src=src {
+     BadRouteException.php
+     DataGenerator.php
+     Dispatcher.php
+     Route.php
+     RouteCollector.php
+     RouteParser.php
+     bootstrap.php
+     functions.php
+     DataGenerator=DataGenerator {
+      CharCountBased.php
+      GroupCountBased.php
+      GroupPosBased.php
+      MarkBased.php
+      RegexBasedAbstract.php
+     }
+     Dispatcher=Dispatcher {
+      CharCountBased.php
+      GroupCountBased.php
+      GroupPosBased.php
+      MarkBased.php
+      RegexBasedAbstract.php
+     }
+     RouteParser=RouteParser {
+      Std.php
+     }
+    }
+    test=test {
+     bootstrap.php
+     Dispatcher=Dispatcher {
+      CharCountBasedTest.php
+      DispatcherTest.php
+      GroupCountBasedTest.php
+      GroupPosBasedTest.php
+      MarkBasedTest.php
+     }
+     RouteParser=RouteParser {
+      StdTest.php
+     }
+    }
+   }
+  }
+  oyejorge=oyejorge {
+   less.php=less.php {
+    CHANGES.md
+    LICENSE
+    README.md
+    composer.json
+    lessc.inc.php
+    bin=bin {
+     lessc
+    }
+    lib=lib {
+     Less=Less {
+      Autoloader.php
+      Cache.php
+      Colors.php
+      Configurable.php
+      Environment.php
+      Functions.php
+      Less.php.combine
+      Mime.php
+      Output.php
+      Parser.php
+      Tree.php
+      Version.php
+      Visitor.php
+      VisitorReplacing.php
+      Exception=Exception {
+       Chunk.php
+       Compiler.php
+       Parser.php
+      }
+      Output=Output {
+       Mapped.php
+      }
+      SourceMap=SourceMap {
+       Base64VLQ.php
+       Generator.php
+      }
+      Tree=Tree {
+       Alpha.php
+       Anonymous.php
+       Assignment.php
+       Attribute.php
+       Call.php
+       Color.php
+       Comment.php
+       Condition.php
+       DefaultFunc.php
+       DetachedRuleset.php
+       Dimension.php
+       Directive.php
+       Element.php
+       Expression.php
+       Extend.php
+       Import.php
+       Javascript.php
+       Keyword.php
+       Media.php
+       NameValue.php
+       Negative.php
+       Operation.php
+       Paren.php
+       Quoted.php
+       Rule.php
+       Ruleset.php
+       RulesetCall.php
+       Selector.php
+       UnicodeDescriptor.php
+       Unit.php
+       UnitConversions.php
+       Url.php
+       Value.php
+       Variable.php
+       Mixin=Mixin {
+        Call.php
+        Definition.php
+       }
+      }
+      Visitor=Visitor {
+       extendFinder.php
+       import.php
+       joinSelector.php
+       processExtends.php
+       toCSS.php
+      }
+     }
+    }
+   }
+  }
+  paragonie=paragonie {
+   random_compat=random_compat {
+    CHANGELOG.md
+    LICENSE
+    RATIONALE.md
+    README.md
+    SECURITY.md
+    build-phar.sh
+    composer.json
+    psalm-autoload.php
+    psalm.xml
+    dist=dist {
+     random_compat.phar.pubkey
+     random_compat.phar.pubkey.asc
+    }
+    lib=lib {
+     byte_safe_strings.php
+     cast_to_int.php
+     error_polyfill.php
+     random.php
+     random_bytes_com_dotnet.php
+     random_bytes_dev_urandom.php
+     random_bytes_libsodium.php
+     random_bytes_libsodium_legacy.php
+     random_bytes_mcrypt.php
+     random_bytes_openssl.php
+     random_int.php
+    }
+    other=other {
+     build_phar.php
+     ide_stubs=ide_stubs {
+      COM.php
+      README.md
+      com_exception.php
+      libsodium.php
+     }
+    }
+   }
+  }
+  psr=psr {
+   http-message=http-message {
+    CHANGELOG.md
+    LICENSE
+    README.md
+    composer.json
+    src=src {
+     MessageInterface.php
+     RequestInterface.php
+     ResponseInterface.php
+     ServerRequestInterface.php
+     StreamInterface.php
+     UploadedFileInterface.php
+     UriInterface.php
+    }
+   }
+   log=log {
+    LICENSE
+    README.md
+    composer.json
+    Psr=Psr {
+     Log=Log {
+      AbstractLogger.php
+      InvalidArgumentException.php
+      LogLevel.php
+      LoggerAwareInterface.php
+      LoggerAwareTrait.php
+      LoggerInterface.php
+      LoggerTrait.php
+      NullLogger.php
+      Test=Test {
+       LoggerInterfaceTest.php
+      }
+     }
+    }
+   }
+  }
+  pusher=pusher {
+   pusher-php-server=pusher-php-server {
+    CHANGELOG.md
+    README.md
+    composer.json
+    phpunit.xml
+    lib=lib {
+     Pusher.php
+    }
+    test=test {
+     TestLogger.php
+     config.example.php
+     test_includes.php
+     acceptance=acceptance {
+      channelQueryTest.php
+      triggerBatchTest.php
+      triggerTest.php
+     }
+     unit=unit {
+      authQueryStringTest.php
+      channelInfoUnitTest.php
+      notificationsTest.php
+      pusherConstructorTest.php
+      socketAuthTest.php
+      triggerUnitTest.php
+     }
+    }
+   }
+  }
+  s9e=s9e {
+   text-formatter=text-formatter {
+    LICENSE
+    composer.json
+    src=src {
+     Bundle.php
+     Configurator.php
+     Parser.js
+     Parser.php
+     Renderer.php
+     Unparser.php
+     Utils.php
+     autoloader.php
+     render.js
+     Bundles=Bundles {
+      Fatdown.php
+      Forum.php
+      MediaPack.php
+      Fatdown=Fatdown {
+       Renderer.php
+      }
+      Forum=Forum {
+       Renderer.php
+      }
+      MediaPack=MediaPack {
+       Renderer.php
+      }
+     }
+     Configurator=Configurator {
+      Bundle.php
+      JavaScript.php
+      Bundles=Bundles {
+       Fatdown.php
+       Forum.php
+       MediaPack.php
+      }
+      Collections=Collections {
+       AttributeList.php
+       MinifierList.php
+       TagList.php
+      }
+      Exceptions=Exceptions {
+       InvalidTemplateException.php
+       InvalidXslException.php
+       UnsafeTemplateException.php
+      }
+      Helpers=Helpers {
+       ContextSafeness.php
+       RegexpParser.php
+      }
+      Items=Items {
+       AttributePreprocessor.php
+       TemplateDocument.php
+       UnsafeTemplate.php
+       AttributeFilters=AttributeFilters {
+        AlnumFilter.php
+        ChoiceFilter.php
+        ColorFilter.php
+        EmailFilter.php
+        FalseFilter.php
+        FloatFilter.php
+        HashmapFilter.php
+        IdentifierFilter.php
+        IntFilter.php
+        IpFilter.php
+        IpportFilter.php
+        Ipv4Filter.php
+        Ipv6Filter.php
+        MapFilter.php
+        NumberFilter.php
+        RangeFilter.php
+        RegexpFilter.php
+        SimpletextFilter.php
+        UintFilter.php
+       }
+      }
+      JavaScript=JavaScript {
+       CallbackGenerator.php
+       ConfigOptimizer.php
+       ConfigValue.php
+       Dictionary.php
+       Encoder.php
+       HintGenerator.php
+       Minifier.php
+       OnlineMinifier.php
+       RegexpConvertor.php
+       StylesheetCompressor.php
+       externs.application.js
+       externs.service.js
+       Minifiers=Minifiers {
+        ClosureCompilerApplication.php
+        ClosureCompilerService.php
+        FirstAvailable.php
+        HostedMinifier.php
+        MatthiasMullieMinify.php
+        Noop.php
+        RemoteCache.php
+       }
+      }
+      RendererGenerators=RendererGenerators {
+       Unformatted.php
+       XSLT.php
+       XSLT=XSLT {
+        Optimizer.php
+       }
+      }
+      RulesGenerators=RulesGenerators {
+       BlockElementsCloseFormattingElements.php
+       ManageParagraphs.php
+      }
+      TemplateChecks=TemplateChecks {
+       DisallowElement.php
+       DisallowFlashFullScreen.php
+       DisallowNodeByXPath.php
+       RestrictFlashNetworking.php
+      }
+      TemplateNormalizations=TemplateNormalizations {
+       ConvertCurlyExpressionsInText.php
+       Custom.php
+       MergeConsecutiveCopyOf.php
+       MergeIdenticalConditionalBranches.php
+       OptimizeNestedConditionals.php
+       SortAttributesByName.php
+       TransposeComments.php
+      }
+      Validators=Validators {
+       TemplateParameterName.php
+      }
+     }
+     Parser=Parser {
+      BuiltInFilters.js
+      BuiltInFilters.php
+      Logger.js
+      Logger.php
+      NullLogger.js
+      Tag.js
+      Tag.php
+      utils.js
+     }
+     Plugins=Plugins {
+      ConfiguratorBase.php
+      ParserBase.php
+      Autoemail=Autoemail {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      Autoimage=Autoimage {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      Autolink=Autolink {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      BBCodes=BBCodes {
+       Configurator.php
+       Parser.js
+       Parser.php
+       Configurator=Configurator {
+        AttributeValueCollection.php
+        BBCode.php
+        BBCodeCollection.php
+        BBCodeMonkey.php
+        Repository.php
+        RepositoryCollection.php
+        repository.xml
+       }
+      }
+      Censor=Censor {
+       Configurator.php
+       Helper.php
+       Parser.js
+       Parser.php
+      }
+      Emoji=Emoji {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      Emoticons=Emoticons {
+       Configurator.php
+       Parser.js
+       Parser.php
+       Configurator=Configurator {
+        EmoticonCollection.php
+       }
+      }
+      Escaper=Escaper {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      FancyPants=FancyPants {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      HTMLComments=HTMLComments {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      HTMLElements=HTMLElements {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      HTMLEntities=HTMLEntities {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      Keywords=Keywords {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      Litedown=Litedown {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+      MediaEmbed=MediaEmbed {
+       Configurator.php
+       Parser.js
+       Parser.php
+       Configurator=Configurator {
+        CachedSiteDefinitionProvider.php
+        LiveSiteDefinitionProvider.php
+        MediaSiteCollection.php
+        SiteDefinitionProvider.php
+        TemplateBuilder.php
+        TemplateGenerator.php
+        TemplateGenerators=TemplateGenerators {
+         Choose.php
+         Flash.php
+         Iframe.php
+        }
+       }
+       Parser=Parser {
+        hasNonDefaultAttribute.js
+        tagFilter.js
+       }
+      }
+      Preg=Preg {
+       Configurator.php
+       Parser.js
+       Parser.php
+      }
+     }
+     Renderers=Renderers {
+      Unformatted.php
+      XSLT.php
+     }
+     Utils=Utils {
+      Http.php
+      Http=Http {
+       Client.php
+       Clients=Clients {
+        Curl.php
+        Native.php
+       }
+      }
+     }
+    }
+   }
+  }
+  swiftmailer=swiftmailer {
+   swiftmailer=swiftmailer {
+    CHANGES
+    LICENSE
+    README
+    VERSION
+    composer.json
+    phpunit.xml.dist
+    doc=doc {
+     headers.rst
+     help-resources.rst
+     including-the-files.rst
+     index.rst
+     installing.rst
+     introduction.rst
+     japanese.rst
+     messages.rst
+     overview.rst
+     plugins.rst
+     sending.rst
+     uml=uml {
+      Encoders.graffle
+      Mime.graffle
+      Transports.graffle
+     }
+    }
+    lib=lib {
+     mime_types.php
+     preferences.php
+     swift_init.php
+     swift_required.php
+     swift_required_pear.php
+     swiftmailer_generate_mimes_config.php
+     classes=classes {
+      Swift.php
+      Swift=Swift {
+       Attachment.php
+       CharacterReader.php
+       CharacterReaderFactory.php
+       CharacterStream.php
+       ConfigurableSpool.php
+       DependencyContainer.php
+       DependencyException.php
+       EmbeddedFile.php
+       Encoder.php
+       Encoding.php
+       FailoverTransport.php
+       FileSpool.php
+       FileStream.php
+       Filterable.php
+       Image.php
+       InputByteStream.php
+       IoException.php
+       KeyCache.php
+       LoadBalancedTransport.php
+       MailTransport.php
+       Mailer.php
+       MemorySpool.php
+       Message.php
+       MimePart.php
+       NullTransport.php
+       OutputByteStream.php
+       Preferences.php
+       ReplacementFilterFactory.php
+       RfcComplianceException.php
+       SendmailTransport.php
+       SignedMessage.php
+       Signer.php
+       SmtpTransport.php
+       Spool.php
+       SpoolTransport.php
+       StreamFilter.php
+       SwiftException.php
+       Transport.php
+       TransportException.php
+       Validate.php
+       ByteStream=ByteStream {
+        AbstractFilterableInputStream.php
+        ArrayByteStream.php
+        FileByteStream.php
+        TemporaryFileByteStream.php
+       }
+       CharacterReader=CharacterReader {
+        GenericFixedWidthReader.php
+        UsAsciiReader.php
+        Utf8Reader.php
+       }
+       CharacterReaderFactory=CharacterReaderFactory {
+        SimpleCharacterReaderFactory.php
+       }
+       CharacterStream=CharacterStream {
+        ArrayCharacterStream.php
+        NgCharacterStream.php
+       }
+       Encoder=Encoder {
+        Base64Encoder.php
+        QpEncoder.php
+        Rfc2231Encoder.php
+       }
+       Events=Events {
+        CommandEvent.php
+        CommandListener.php
+        Event.php
+        EventDispatcher.php
+        EventListener.php
+        EventObject.php
+        ResponseEvent.php
+        ResponseListener.php
+        SendEvent.php
+        SendListener.php
+        SimpleEventDispatcher.php
+        TransportChangeEvent.php
+        TransportChangeListener.php
+        TransportExceptionEvent.php
+        TransportExceptionListener.php
+       }
+       KeyCache=KeyCache {
+        ArrayKeyCache.php
+        DiskKeyCache.php
+        KeyCacheInputStream.php
+        NullKeyCache.php
+        SimpleKeyCacheInputStream.php
+       }
+       Mailer=Mailer {
+        ArrayRecipientIterator.php
+        RecipientIterator.php
+       }
+       Mime=Mime {
+        Attachment.php
+        CharsetObserver.php
+        ContentEncoder.php
+        EmbeddedFile.php
+        EncodingObserver.php
+        Grammar.php
+        Header.php
+        HeaderEncoder.php
+        HeaderFactory.php
+        HeaderSet.php
+        Message.php
+        MimeEntity.php
+        MimePart.php
+        ParameterizedHeader.php
+        SimpleHeaderFactory.php
+        SimpleHeaderSet.php
+        SimpleMessage.php
+        SimpleMimeEntity.php
+        ContentEncoder=ContentEncoder {
+         Base64ContentEncoder.php
+         NativeQpContentEncoder.php
+         PlainContentEncoder.php
+         QpContentEncoder.php
+         QpContentEncoderProxy.php
+         RawContentEncoder.php
+        }
+        HeaderEncoder=HeaderEncoder {
+         Base64HeaderEncoder.php
+         QpHeaderEncoder.php
+        }
+        Headers=Headers {
+         AbstractHeader.php
+         DateHeader.php
+         IdentificationHeader.php
+         MailboxHeader.php
+         OpenDKIMHeader.php
+         ParameterizedHeader.php
+         PathHeader.php
+         UnstructuredHeader.php
+        }
+       }
+       Plugins=Plugins {
+        AntiFloodPlugin.php
+        BandwidthMonitorPlugin.php
+        DecoratorPlugin.php
+        ImpersonatePlugin.php
+        Logger.php
+        LoggerPlugin.php
+        MessageLogger.php
+        PopBeforeSmtpPlugin.php
+        RedirectingPlugin.php
+        Reporter.php
+        ReporterPlugin.php
+        Sleeper.php
+        ThrottlerPlugin.php
+        Timer.php
+        Decorator=Decorator {
+         Replacements.php
+        }
+        Loggers=Loggers {
+         ArrayLogger.php
+         EchoLogger.php
+        }
+        Pop=Pop {
+         Pop3Connection.php
+         Pop3Exception.php
+        }
+        Reporters=Reporters {
+         HitReporter.php
+         HtmlReporter.php
+        }
+       }
+       Signers=Signers {
+        BodySigner.php
+        DKIMSigner.php
+        DomainKeySigner.php
+        HeaderSigner.php
+        OpenDKIMSigner.php
+        SMimeSigner.php
+       }
+       StreamFilters=StreamFilters {
+        ByteArrayReplacementFilter.php
+        StringReplacementFilter.php
+        StringReplacementFilterFactory.php
+       }
+       Transport=Transport {
+        AbstractSmtpTransport.php
+        EsmtpHandler.php
+        EsmtpTransport.php
+        FailoverTransport.php
+        IoBuffer.php
+        LoadBalancedTransport.php
+        MailInvoker.php
+        MailTransport.php
+        NullTransport.php
+        SendmailTransport.php
+        SimpleMailInvoker.php
+        SmtpAgent.php
+        SpoolTransport.php
+        StreamBuffer.php
+        Esmtp=Esmtp {
+         AuthHandler.php
+         Authenticator.php
+         Auth=Auth {
+          CramMd5Authenticator.php
+          LoginAuthenticator.php
+          NTLMAuthenticator.php
+          PlainAuthenticator.php
+          XOAuth2Authenticator.php
+         }
+        }
+       }
+      }
+     }
+     dependency_maps=dependency_maps {
+      cache_deps.php
+      message_deps.php
+      mime_deps.php
+      transport_deps.php
+     }
+    }
+    tests=tests {
+     IdenticalBinaryConstraint.php
+     StreamCollector.php
+     SwiftMailerSmokeTestCase.php
+     SwiftMailerTestCase.php
+     acceptance.conf.php.default
+     bootstrap.php
+     smoke.conf.php.default
+     _samples=_samples {
+      charsets=charsets {
+       iso-2022-jp=iso-2022-jp {
+        one.txt
+       }
+       iso-8859-1=iso-8859-1 {
+        one.txt
+       }
+       utf-8=utf-8 {
+        one.txt
+        three.txt
+        two.txt
+       }
+      }
+      dkim=dkim {
+       dkim.test.priv
+       dkim.test.pub
+      }
+      files=files {
+       data.txt
+       swiftmailer.png
+       textfile.zip
+      }
+      smime=smime {
+       CA.srl
+       ca.crt
+       ca.key
+       create-cert.sh
+       encrypt.crt
+       encrypt.key
+       encrypt2.crt
+       encrypt2.key
+       intermediate.crt
+       intermediate.key
+       sign.crt
+       sign.key
+       sign2.crt
+       sign2.key
+      }
+     }
+     acceptance=acceptance {
+      Swift=Swift {
+       AttachmentAcceptanceTest.php
+       DependencyContainerAcceptanceTest.php
+       EmbeddedFileAcceptanceTest.php
+       EncodingAcceptanceTest.php
+       MessageAcceptanceTest.php
+       MimePartAcceptanceTest.php
+       ByteStream=ByteStream {
+        FileByteStreamAcceptanceTest.php
+       }
+       CharacterReaderFactory=CharacterReaderFactory {
+        SimpleCharacterReaderFactoryAcceptanceTest.php
+       }
+       Encoder=Encoder {
+        Base64EncoderAcceptanceTest.php
+        QpEncoderAcceptanceTest.php
+        Rfc2231EncoderAcceptanceTest.php
+       }
+       KeyCache=KeyCache {
+        ArrayKeyCacheAcceptanceTest.php
+        DiskKeyCacheAcceptanceTest.php
+       }
+       Mime=Mime {
+        AttachmentAcceptanceTest.php
+        EmbeddedFileAcceptanceTest.php
+        MimePartAcceptanceTest.php
+        SimpleMessageAcceptanceTest.php
+        ContentEncoder=ContentEncoder {
+         Base64ContentEncoderAcceptanceTest.php
+         NativeQpContentEncoderAcceptanceTest.php
+         PlainContentEncoderAcceptanceTest.php
+         QpContentEncoderAcceptanceTest.php
+        }
+        HeaderEncoder=HeaderEncoder {
+         Base64HeaderEncoderAcceptanceTest.php
+        }
+       }
+       Transport=Transport {
+        StreamBuffer=StreamBuffer {
+         AbstractStreamBufferAcceptanceTest.php
+         BasicSocketAcceptanceTest.php
+         ProcessAcceptanceTest.php
+         SocketTimeoutTest.php
+         SslSocketAcceptanceTest.php
+         TlsSocketAcceptanceTest.php
+        }
+       }
+      }
+     }
+     bug=bug {
+      Swift=Swift {
+       Bug111Test.php
+       Bug118Test.php
+       Bug206Test.php
+       Bug274Test.php
+       Bug34Test.php
+       Bug35Test.php
+       Bug38Test.php
+       Bug518Test.php
+       Bug51Test.php
+       Bug534Test.php
+       Bug650Test.php
+       Bug71Test.php
+       Bug76Test.php
+       BugFileByteStreamConsecutiveReadCallsTest.php
+      }
+     }
+     fixtures=fixtures {
+      MimeEntityFixture.php
+     }
+     smoke=smoke {
+      Swift=Swift {
+       Smoke=Smoke {
+        AttachmentSmokeTest.php
+        BasicSmokeTest.php
+        HtmlWithAttachmentSmokeTest.php
+        InternationalSmokeTest.php
+       }
+      }
+     }
+     unit=unit {
+      Swift=Swift {
+       DependencyContainerTest.php
+       MailerTest.php
+       MessageTest.php
+       ByteStream=ByteStream {
+        ArrayByteStreamTest.php
+       }
+       CharacterReader=CharacterReader {
+        GenericFixedWidthReaderTest.php
+        UsAsciiReaderTest.php
+        Utf8ReaderTest.php
+       }
+       CharacterStream=CharacterStream {
+        ArrayCharacterStreamTest.php
+       }
+       Encoder=Encoder {
+        Base64EncoderTest.php
+        QpEncoderTest.php
+        Rfc2231EncoderTest.php
+       }
+       Events=Events {
+        CommandEventTest.php
+        EventObjectTest.php
+        ResponseEventTest.php
+        SendEventTest.php
+        SimpleEventDispatcherTest.php
+        TransportChangeEventTest.php
+        TransportExceptionEventTest.php
+       }
+       KeyCache=KeyCache {
+        ArrayKeyCacheTest.php
+        SimpleKeyCacheInputStreamTest.php
+       }
+       Mailer=Mailer {
+        ArrayRecipientIteratorTest.php
+       }
+       Mime=Mime {
+        AbstractMimeEntityTest.php
+        AttachmentTest.php
+        EmbeddedFileTest.php
+        MimePartTest.php
+        SimpleHeaderFactoryTest.php
+        SimpleHeaderSetTest.php
+        SimpleMessageTest.php
+        SimpleMimeEntityTest.php
+        ContentEncoder=ContentEncoder {
+         Base64ContentEncoderTest.php
+         PlainContentEncoderTest.php
+         QpContentEncoderTest.php
+        }
+        HeaderEncoder=HeaderEncoder {
+         Base64HeaderEncoderTest.php
+         QpHeaderEncoderTest.php
+        }
+        Headers=Headers {
+         DateHeaderTest.php
+         IdentificationHeaderTest.php
+         MailboxHeaderTest.php
+         ParameterizedHeaderTest.php
+         PathHeaderTest.php
+         UnstructuredHeaderTest.php
+        }
+       }
+       Plugins=Plugins {
+        AntiFloodPluginTest.php
+        BandwidthMonitorPluginTest.php
+        DecoratorPluginTest.php
+        LoggerPluginTest.php
+        PopBeforeSmtpPluginTest.php
+        RedirectingPluginTest.php
+        ReporterPluginTest.php
+        ThrottlerPluginTest.php
+        Loggers=Loggers {
+         ArrayLoggerTest.php
+         EchoLoggerTest.php
+        }
+        Reporters=Reporters {
+         HitReporterTest.php
+         HtmlReporterTest.php
+        }
+       }
+       Signers=Signers {
+        DKIMSignerTest.php
+        OpenDKIMSignerTest.php
+        SMimeSignerTest.php
+       }
+       StreamFilters=StreamFilters {
+        ByteArrayReplacementFilterTest.php
+        StringReplacementFilterFactoryTest.php
+        StringReplacementFilterTest.php
+       }
+       Transport=Transport {
+        AbstractSmtpEventSupportTest.php
+        AbstractSmtpTest.php
+        EsmtpTransportTest.php
+        FailoverTransportTest.php
+        LoadBalancedTransportTest.php
+        MailTransportTest.php
+        SendmailTransportTest.php
+        StreamBufferTest.php
+        Esmtp=Esmtp {
+         AuthHandlerTest.php
+         Auth=Auth {
+          CramMd5AuthenticatorTest.php
+          LoginAuthenticatorTest.php
+          NTLMAuthenticatorTest.php
+          PlainAuthenticatorTest.php
+         }
+        }
+        EsmtpTransport=EsmtpTransport {
+         ExtensionSupportTest.php
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  symfony=symfony {
+   console=console {
+    Application.php
+    CHANGELOG.md
+    ConsoleEvents.php
+    LICENSE
+    README.md
+    Shell.php
+    composer.json
+    phpunit.xml.dist
+    Command=Command {
+     Command.php
+     HelpCommand.php
+     ListCommand.php
+    }
+    Descriptor=Descriptor {
+     ApplicationDescription.php
+     Descriptor.php
+     DescriptorInterface.php
+     JsonDescriptor.php
+     MarkdownDescriptor.php
+     TextDescriptor.php
+     XmlDescriptor.php
+    }
+    Event=Event {
+     ConsoleCommandEvent.php
+     ConsoleEvent.php
+     ConsoleExceptionEvent.php
+     ConsoleTerminateEvent.php
+    }
+    Exception=Exception {
+     CommandNotFoundException.php
+     ExceptionInterface.php
+     InvalidArgumentException.php
+     InvalidOptionException.php
+     LogicException.php
+     RuntimeException.php
+    }
+    Formatter=Formatter {
+     OutputFormatter.php
+     OutputFormatterInterface.php
+     OutputFormatterStyle.php
+     OutputFormatterStyleInterface.php
+     OutputFormatterStyleStack.php
+    }
+    Helper=Helper {
+     DebugFormatterHelper.php
+     DescriptorHelper.php
+     DialogHelper.php
+     FormatterHelper.php
+     Helper.php
+     HelperInterface.php
+     HelperSet.php
+     InputAwareHelper.php
+     ProcessHelper.php
+     ProgressBar.php
+     ProgressHelper.php
+     ProgressIndicator.php
+     QuestionHelper.php
+     SymfonyQuestionHelper.php
+     Table.php
+     TableCell.php
+     TableHelper.php
+     TableSeparator.php
+     TableStyle.php
+    }
+    Input=Input {
+     ArgvInput.php
+     ArrayInput.php
+     Input.php
+     InputArgument.php
+     InputAwareInterface.php
+     InputDefinition.php
+     InputInterface.php
+     InputOption.php
+     StringInput.php
+    }
+    Logger=Logger {
+     ConsoleLogger.php
+    }
+    Output=Output {
+     BufferedOutput.php
+     ConsoleOutput.php
+     ConsoleOutputInterface.php
+     NullOutput.php
+     Output.php
+     OutputInterface.php
+     StreamOutput.php
+    }
+    Question=Question {
+     ChoiceQuestion.php
+     ConfirmationQuestion.php
+     Question.php
+    }
+    Resources=Resources {
+     bin=bin {
+      hiddeninput.exe
+     }
+    }
+    Style=Style {
+     OutputStyle.php
+     StyleInterface.php
+     SymfonyStyle.php
+    }
+    Tester=Tester {
+     ApplicationTester.php
+     CommandTester.php
+    }
+    Tests=Tests {
+     ApplicationTest.php
+     Command=Command {
+      CommandTest.php
+      HelpCommandTest.php
+      ListCommandTest.php
+     }
+     Descriptor=Descriptor {
+      AbstractDescriptorTest.php
+      JsonDescriptorTest.php
+      MarkdownDescriptorTest.php
+      ObjectsProvider.php
+      TextDescriptorTest.php
+      XmlDescriptorTest.php
+     }
+     Fixtures=Fixtures {
+      BarBucCommand.php
+      DescriptorApplication1.php
+      DescriptorApplication2.php
+      DescriptorApplicationMbString.php
+      DescriptorCommand1.php
+      DescriptorCommand2.php
+      DescriptorCommandMbString.php
+      DummyOutput.php
+      Foo1Command.php
+      Foo2Command.php
+      Foo3Command.php
+      Foo4Command.php
+      Foo5Command.php
+      Foo6Command.php
+      FooCommand.php
+      FooSubnamespaced1Command.php
+      FooSubnamespaced2Command.php
+      FoobarCommand.php
+      TestCommand.php
+      application_1.json
+      application_1.md
+      application_1.txt
+      application_1.xml
+      application_2.json
+      application_2.md
+      application_2.txt
+      application_2.xml
+      application_astext1.txt
+      application_astext2.txt
+      application_asxml1.txt
+      application_asxml2.txt
+      application_gethelp.txt
+      application_mbstring.md
+      application_mbstring.txt
+      application_renderexception1.txt
+      application_renderexception2.txt
+      application_renderexception3.txt
+      application_renderexception3decorated.txt
+      application_renderexception4.txt
+      application_renderexception_doublewidth1.txt
+      application_renderexception_doublewidth1decorated.txt
+      application_renderexception_doublewidth2.txt
+      application_renderexception_escapeslines.txt
+      application_run1.txt
+      application_run2.txt
+      application_run3.txt
+      application_run4.txt
+      command_1.json
+      command_1.md
+      command_1.txt
+      command_1.xml
+      command_2.json
+      command_2.md
+      command_2.txt
+      command_2.xml
+      command_astext.txt
+      command_asxml.txt
+      command_mbstring.md
+      command_mbstring.txt
+      definition_astext.txt
+      definition_asxml.txt
+      input_argument_1.json
+      input_argument_1.md
+      input_argument_1.txt
+      input_argument_1.xml
+      input_argument_2.json
+      input_argument_2.md
+      input_argument_2.txt
+      input_argument_2.xml
+      input_argument_3.json
+      input_argument_3.md
+      input_argument_3.txt
+      input_argument_3.xml
+      input_argument_4.json
+      input_argument_4.md
+      input_argument_4.txt
+      input_argument_4.xml
+      input_argument_with_style.json
+      input_argument_with_style.md
+      input_argument_with_style.txt
+      input_argument_with_style.xml
+      input_definition_1.json
+      input_definition_1.md
+      input_definition_1.txt
+      input_definition_1.xml
+      input_definition_2.json
+      input_definition_2.md
+      input_definition_2.txt
+      input_definition_2.xml
+      input_definition_3.json
+      input_definition_3.md
+      input_definition_3.txt
+      input_definition_3.xml
+      input_definition_4.json
+      input_definition_4.md
+      input_definition_4.txt
+      input_definition_4.xml
+      input_option_1.json
+      input_option_1.md
+      input_option_1.txt
+      input_option_1.xml
+      input_option_2.json
+      input_option_2.md
+      input_option_2.txt
+      input_option_2.xml
+      input_option_3.json
+      input_option_3.md
+      input_option_3.txt
+      input_option_3.xml
+      input_option_4.json
+      input_option_4.md
+      input_option_4.txt
+      input_option_4.xml
+      input_option_5.json
+      input_option_5.md
+      input_option_5.txt
+      input_option_5.xml
+      input_option_6.json
+      input_option_6.md
+      input_option_6.txt
+      input_option_6.xml
+      input_option_with_style.json
+      input_option_with_style.md
+      input_option_with_style.txt
+      input_option_with_style.xml
+      input_option_with_style_array.json
+      input_option_with_style_array.md
+      input_option_with_style_array.txt
+      input_option_with_style_array.xml
+      Style=Style {
+       SymfonyStyle=SymfonyStyle {
+        command=command {
+         command_0.php
+         command_1.php
+         command_10.php
+         command_11.php
+         command_12.php
+         command_13.php
+         command_14.php
+         command_15.php
+         command_16.php
+         command_17.php
+         command_2.php
+         command_3.php
+         command_4.php
+         command_5.php
+         command_6.php
+         command_7.php
+         command_8.php
+         command_9.php
+        }
+        output=output {
+         output_0.txt
+         output_1.txt
+         output_10.txt
+         output_11.txt
+         output_12.txt
+         output_13.txt
+         output_14.txt
+         output_15.txt
+         output_16.txt
+         output_17.txt
+         output_2.txt
+         output_3.txt
+         output_4.txt
+         output_5.txt
+         output_6.txt
+         output_7.txt
+         output_8.txt
+         output_9.txt
+        }
+       }
+      }
+     }
+     Formatter=Formatter {
+      OutputFormatterStyleStackTest.php
+      OutputFormatterStyleTest.php
+      OutputFormatterTest.php
+     }
+     Helper=Helper {
+      FormatterHelperTest.php
+      HelperSetTest.php
+      HelperTest.php
+      LegacyDialogHelperTest.php
+      LegacyProgressHelperTest.php
+      LegacyTableHelperTest.php
+      ProcessHelperTest.php
+      ProgressBarTest.php
+      ProgressIndicatorTest.php
+      QuestionHelperTest.php
+      SymfonyQuestionHelperTest.php
+      TableStyleTest.php
+      TableTest.php
+     }
+     Input=Input {
+      ArgvInputTest.php
+      ArrayInputTest.php
+      InputArgumentTest.php
+      InputDefinitionTest.php
+      InputOptionTest.php
+      InputTest.php
+      StringInputTest.php
+     }
+     Logger=Logger {
+      ConsoleLoggerTest.php
+     }
+     Output=Output {
+      ConsoleOutputTest.php
+      NullOutputTest.php
+      OutputTest.php
+      StreamOutputTest.php
+     }
+     Style=Style {
+      SymfonyStyleTest.php
+     }
+     Tester=Tester {
+      ApplicationTesterTest.php
+      CommandTesterTest.php
+     }
+    }
+   }
+   debug=debug {
+    CHANGELOG.md
+    Debug.php
+    DebugClassLoader.php
+    ErrorHandler.php
+    ExceptionHandler.php
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml.dist
+    Exception=Exception {
+     ClassNotFoundException.php
+     ContextErrorException.php
+     DummyException.php
+     FatalErrorException.php
+     FatalThrowableError.php
+     FlattenException.php
+     OutOfMemoryException.php
+     UndefinedFunctionException.php
+     UndefinedMethodException.php
+    }
+    FatalErrorHandler=FatalErrorHandler {
+     ClassNotFoundFatalErrorHandler.php
+     FatalErrorHandlerInterface.php
+     UndefinedFunctionFatalErrorHandler.php
+     UndefinedMethodFatalErrorHandler.php
+    }
+    Resources=Resources {
+     ext=ext {
+      README.md
+      config.m4
+      config.w32
+      symfony_debug.c
+      php_symfony_debug.h
+      tests=tests {
+       001.phpt
+       002.phpt
+       002_1.phpt
+       003.phpt
+      }
+     }
+    }
+    Tests=Tests {
+     DebugClassLoaderTest.php
+     ErrorHandlerTest.php
+     ExceptionHandlerTest.php
+     HeaderMock.php
+     MockExceptionHandler.php
+     Exception=Exception {
+      FlattenExceptionTest.php
+     }
+     FatalErrorHandler=FatalErrorHandler {
+      ClassNotFoundFatalErrorHandlerTest.php
+      UndefinedFunctionFatalErrorHandlerTest.php
+      UndefinedMethodFatalErrorHandlerTest.php
+     }
+     Fixtures=Fixtures {
+      ClassAlias.php
+      DeprecatedClass.php
+      DeprecatedInterface.php
+      PEARClass.php
+      casemismatch.php
+      notPsr0Bis.php
+      reallyNotPsr0.php
+      psr4=psr4 {
+       Psr4CaseMismatch.php
+      }
+     }
+     Fixtures2=Fixtures2 {
+      RequiredTwice.php
+     }
+    }
+   }
+   filesystem=filesystem {
+    CHANGELOG.md
+    Filesystem.php
+    LICENSE
+    LockHandler.php
+    README.md
+    composer.json
+    phpunit.xml.dist
+    Exception=Exception {
+     ExceptionInterface.php
+     FileNotFoundException.php
+     IOException.php
+     IOExceptionInterface.php
+    }
+    Tests=Tests {
+     ExceptionTest.php
+     FilesystemTest.php
+     FilesystemTestCase.php
+     LockHandlerTest.php
+     Fixtures=Fixtures {
+      MockStream=MockStream {
+       MockStream.php
+      }
+     }
+    }
+   }
+   finder=finder {
+    CHANGELOG.md
+    Finder.php
+    Glob.php
+    LICENSE
+    README.md
+    SplFileInfo.php
+    composer.json
+    phpunit.xml.dist
+    Adapter=Adapter {
+     AbstractAdapter.php
+     AbstractFindAdapter.php
+     AdapterInterface.php
+     BsdFindAdapter.php
+     GnuFindAdapter.php
+     PhpAdapter.php
+    }
+    Comparator=Comparator {
+     Comparator.php
+     DateComparator.php
+     NumberComparator.php
+    }
+    Exception=Exception {
+     AccessDeniedException.php
+     AdapterFailureException.php
+     ExceptionInterface.php
+     OperationNotPermitedException.php
+     ShellCommandFailureException.php
+    }
+    Expression=Expression {
+     Expression.php
+     Glob.php
+     Regex.php
+     ValueInterface.php
+    }
+    Iterator=Iterator {
+     CustomFilterIterator.php
+     DateRangeFilterIterator.php
+     DepthRangeFilterIterator.php
+     ExcludeDirectoryFilterIterator.php
+     FilePathsIterator.php
+     FileTypeFilterIterator.php
+     FilecontentFilterIterator.php
+     FilenameFilterIterator.php
+     FilterIterator.php
+     MultiplePcreFilterIterator.php
+     PathFilterIterator.php
+     RecursiveDirectoryIterator.php
+     SizeRangeFilterIterator.php
+     SortableIterator.php
+    }
+    Shell=Shell {
+     Command.php
+     Shell.php
+    }
+    Tests=Tests {
+     BsdFinderTest.php
+     FinderTest.php
+     GlobTest.php
+     GnuFinderTest.php
+     Comparator=Comparator {
+      ComparatorTest.php
+      DateComparatorTest.php
+      NumberComparatorTest.php
+     }
+     Expression=Expression {
+      ExpressionTest.php
+      GlobTest.php
+      RegexTest.php
+     }
+     FakeAdapter=FakeAdapter {
+      DummyAdapter.php
+      FailingAdapter.php
+      NamedAdapter.php
+      UnsupportedAdapter.php
+     }
+     Fixtures=Fixtures {
+      dolor.txt
+      ipsum.txt
+      lorem.txt
+      r+e.gex[c]a
+      r
+      s
+      A=A {
+       a.dat
+       B=B {
+        ab.dat
+        C=C {
+         abc.dat
+        }
+       }
+      }
+      copy=copy {
+       A=A {
+        a.dat.copy
+        B=B {
+         ab.dat.copy
+         C=C {
+          abc.dat.copy
+         }
+        }
+       }
+      }
+      one=one {
+       a
+       b=b {
+        c.neon
+        d.neon
+       }
+      }
+      with space="with space" {
+       foo.txt
+      }
+     }
+     Iterator=Iterator {
+      CustomFilterIteratorTest.php
+      DateRangeFilterIteratorTest.php
+      DepthRangeFilterIteratorTest.php
+      ExcludeDirectoryFilterIteratorTest.php
+      FilePathsIteratorTest.php
+      FileTypeFilterIteratorTest.php
+      FilecontentFilterIteratorTest.php
+      FilenameFilterIteratorTest.php
+      FilterIteratorTest.php
+      Iterator.php
+      IteratorTestCase.php
+      MockFileListIterator.php
+      MockSplFileInfo.php
+      MultiplePcreFilterIteratorTest.php
+      PathFilterIteratorTest.php
+      RealIteratorTestCase.php
+      RecursiveDirectoryIteratorTest.php
+      SizeRangeFilterIteratorTest.php
+      SortableIteratorTest.php
+     }
+     Shell=Shell {
+      CommandTest.php
+     }
+    }
+   }
+   http-foundation=http-foundation {
+    AcceptHeader.php
+    AcceptHeaderItem.php
+    ApacheRequest.php
+    BinaryFileResponse.php
+    CHANGELOG.md
+    Cookie.php
+    ExpressionRequestMatcher.php
+    FileBag.php
+    HeaderBag.php
+    IpUtils.php
+    JsonResponse.php
+    LICENSE
+    ParameterBag.php
+    README.md
+    RedirectResponse.php
+    Request.php
+    RequestMatcher.php
+    RequestMatcherInterface.php
+    RequestStack.php
+    Response.php
+    ResponseHeaderBag.php
+    ServerBag.php
+    StreamedResponse.php
+    composer.json
+    phpunit.xml.dist
+    Exception=Exception {
+     ConflictingHeadersException.php
+    }
+    File=File {
+     File.php
+     UploadedFile.php
+     Exception=Exception {
+      AccessDeniedException.php
+      FileException.php
+      FileNotFoundException.php
+      UnexpectedTypeException.php
+      UploadException.php
+     }
+     MimeType=MimeType {
+      ExtensionGuesser.php
+      ExtensionGuesserInterface.php
+      FileBinaryMimeTypeGuesser.php
+      FileinfoMimeTypeGuesser.php
+      MimeTypeExtensionGuesser.php
+      MimeTypeGuesser.php
+      MimeTypeGuesserInterface.php
+     }
+    }
+    Resources=Resources {
+     stubs=stubs {
+      SessionHandlerInterface.php
+     }
+    }
+    Session=Session {
+     Session.php
+     SessionBagInterface.php
+     SessionInterface.php
+     Attribute=Attribute {
+      AttributeBag.php
+      AttributeBagInterface.php
+      NamespacedAttributeBag.php
+     }
+     Flash=Flash {
+      AutoExpireFlashBag.php
+      FlashBag.php
+      FlashBagInterface.php
+     }
+     Storage=Storage {
+      MetadataBag.php
+      MockArraySessionStorage.php
+      MockFileSessionStorage.php
+      NativeSessionStorage.php
+      PhpBridgeSessionStorage.php
+      SessionStorageInterface.php
+      Handler=Handler {
+       LegacyPdoSessionHandler.php
+       MemcacheSessionHandler.php
+       MemcachedSessionHandler.php
+       MongoDbSessionHandler.php
+       NativeFileSessionHandler.php
+       NativeSessionHandler.php
+       NullSessionHandler.php
+       PdoSessionHandler.php
+       WriteCheckSessionHandler.php
+      }
+      Proxy=Proxy {
+       AbstractProxy.php
+       NativeProxy.php
+       SessionHandlerProxy.php
+      }
+     }
+    }
+    Tests=Tests {
+     AcceptHeaderItemTest.php
+     AcceptHeaderTest.php
+     ApacheRequestTest.php
+     BinaryFileResponseTest.php
+     CookieTest.php
+     ExpressionRequestMatcherTest.php
+     FileBagTest.php
+     HeaderBagTest.php
+     IpUtilsTest.php
+     JsonResponseTest.php
+     ParameterBagTest.php
+     RedirectResponseTest.php
+     RequestMatcherTest.php
+     RequestStackTest.php
+     RequestTest.php
+     ResponseHeaderBagTest.php
+     ResponseTest.php
+     ResponseTestCase.php
+     ServerBagTest.php
+     StreamedResponseTest.php
+     File=File {
+      FakeFile.php
+      FileTest.php
+      UploadedFileTest.php
+      Fixtures=Fixtures {
+       other-file.example
+       test
+       test.gif
+       directory=directory {
+       }
+      }
+      MimeType=MimeType {
+       MimeTypeTest.php
+      }
+     }
+     Session=Session {
+      SessionTest.php
+      Attribute=Attribute {
+       AttributeBagTest.php
+       NamespacedAttributeBagTest.php
+      }
+      Flash=Flash {
+       AutoExpireFlashBagTest.php
+       FlashBagTest.php
+      }
+      Storage=Storage {
+       MetadataBagTest.php
+       MockArraySessionStorageTest.php
+       MockFileSessionStorageTest.php
+       NativeSessionStorageTest.php
+       PhpBridgeSessionStorageTest.php
+       Handler=Handler {
+        LegacyPdoSessionHandlerTest.php
+        MemcacheSessionHandlerTest.php
+        MemcachedSessionHandlerTest.php
+        MongoDbSessionHandlerTest.php
+        NativeFileSessionHandlerTest.php
+        NativeSessionHandlerTest.php
+        NullSessionHandlerTest.php
+        PdoSessionHandlerTest.php
+        WriteCheckSessionHandlerTest.php
+       }
+       Proxy=Proxy {
+        AbstractProxyTest.php
+        NativeProxyTest.php
+        SessionHandlerProxyTest.php
+       }
+      }
+     }
+     schema=schema {
+      http-status-codes.rng
+      iana-registry.rng
+     }
+    }
+   }
+   polyfill-mbstring=polyfill-mbstring {
+    LICENSE
+    Mbstring.php
+    README.md
+    bootstrap.php
+    composer.json
+    Resources=Resources {
+     unidata=unidata {
+      lowerCase.php
+      upperCase.php
+     }
+    }
+   }
+   process=process {
+    CHANGELOG.md
+    ExecutableFinder.php
+    InputStream.php
+    LICENSE
+    PhpExecutableFinder.php
+    PhpProcess.php
+    Process.php
+    ProcessBuilder.php
+    ProcessUtils.php
+    README.md
+    composer.json
+    phpunit.xml.dist
+    Exception=Exception {
+     ExceptionInterface.php
+     InvalidArgumentException.php
+     LogicException.php
+     ProcessFailedException.php
+     ProcessTimedOutException.php
+     RuntimeException.php
+    }
+    Pipes=Pipes {
+     AbstractPipes.php
+     PipesInterface.php
+     UnixPipes.php
+     WindowsPipes.php
+    }
+    Tests=Tests {
+     ExecutableFinderTest.php
+     NonStopableProcess.php
+     PhpExecutableFinderTest.php
+     PhpProcessTest.php
+     PipeStdinInStdoutStdErrStreamSelect.php
+     ProcessBuilderTest.php
+     ProcessFailedExceptionTest.php
+     ProcessTest.php
+     ProcessUtilsTest.php
+     SignalListener.php
+    }
+   }
+   translation=translation {
+    CHANGELOG.md
+    DataCollectorTranslator.php
+    IdentityTranslator.php
+    Interval.php
+    LICENSE
+    LoggingTranslator.php
+    MessageCatalogue.php
+    MessageCatalogueInterface.php
+    MessageSelector.php
+    MetadataAwareInterface.php
+    PluralizationRules.php
+    README.md
+    Translator.php
+    TranslatorBagInterface.php
+    TranslatorInterface.php
+    composer.json
+    phpunit.xml.dist
+    Catalogue=Catalogue {
+     AbstractOperation.php
+     DiffOperation.php
+     MergeOperation.php
+     OperationInterface.php
+    }
+    DataCollector=DataCollector {
+     TranslationDataCollector.php
+    }
+    Dumper=Dumper {
+     CsvFileDumper.php
+     DumperInterface.php
+     FileDumper.php
+     IcuResFileDumper.php
+     IniFileDumper.php
+     JsonFileDumper.php
+     MoFileDumper.php
+     PhpFileDumper.php
+     PoFileDumper.php
+     QtFileDumper.php
+     XliffFileDumper.php
+     YamlFileDumper.php
+    }
+    Exception=Exception {
+     ExceptionInterface.php
+     InvalidResourceException.php
+     NotFoundResourceException.php
+    }
+    Extractor=Extractor {
+     AbstractFileExtractor.php
+     ChainExtractor.php
+     ExtractorInterface.php
+    }
+    Loader=Loader {
+     ArrayLoader.php
+     CsvFileLoader.php
+     IcuDatFileLoader.php
+     IcuResFileLoader.php
+     IniFileLoader.php
+     JsonFileLoader.php
+     LoaderInterface.php
+     MoFileLoader.php
+     PhpFileLoader.php
+     PoFileLoader.php
+     QtFileLoader.php
+     XliffFileLoader.php
+     YamlFileLoader.php
+     schema=schema {
+      dic=dic {
+       xliff-core=xliff-core {
+        xliff-core-1.2-strict.xsd
+        xml.xsd
+       }
+      }
+     }
+    }
+    Tests=Tests {
+     DataCollectorTranslatorTest.php
+     IdentityTranslatorTest.php
+     IntervalTest.php
+     LoggingTranslatorTest.php
+     MessageCatalogueTest.php
+     MessageSelectorTest.php
+     PluralizationRulesTest.php
+     TranslatorCacheTest.php
+     TranslatorTest.php
+     Catalogue=Catalogue {
+      AbstractOperationTest.php
+      DiffOperationTest.php
+      MergeOperationTest.php
+     }
+     DataCollector=DataCollector {
+      TranslationDataCollectorTest.php
+     }
+     Dumper=Dumper {
+      CsvFileDumperTest.php
+      FileDumperTest.php
+      IcuResFileDumperTest.php
+      IniFileDumperTest.php
+      JsonFileDumperTest.php
+      MoFileDumperTest.php
+      PhpFileDumperTest.php
+      PoFileDumperTest.php
+      QtFileDumperTest.php
+      XliffFileDumperTest.php
+      YamlFileDumperTest.php
+     }
+     Loader=Loader {
+      CsvFileLoaderTest.php
+      IcuDatFileLoaderTest.php
+      IcuResFileLoaderTest.php
+      IniFileLoaderTest.php
+      JsonFileLoaderTest.php
+      LocalizedTestCase.php
+      MoFileLoaderTest.php
+      PhpFileLoaderTest.php
+      PoFileLoaderTest.php
+      QtFileLoaderTest.php
+      XliffFileLoaderTest.php
+      YamlFileLoaderTest.php
+     }
+     Writer=Writer {
+      TranslationWriterTest.php
+     }
+     fixtures=fixtures {
+      empty-translation.mo
+      empty-translation.po
+      empty.csv
+      empty.ini
+      empty.json
+      empty.mo
+      empty.po
+      empty.xlf
+      empty.yml
+      encoding.xlf
+      escaped-id-plurals.po
+      escaped-id.po
+      fuzzy-translations.po
+      invalid-xml-resources.xlf
+      malformed.json
+      non-valid.xlf
+      non-valid.yml
+      plurals.mo
+      plurals.po
+      resname.xlf
+      resources-clean.xlf
+      resources.csv
+      resources.ini
+      resources.json
+      resources.mo
+      resources.php
+      resources.po
+      resources.ts
+      resources.xlf
+      resources.yml
+      valid.csv
+      withdoctype.xlf
+      withnote.xlf
+      resourcebundle=resourcebundle {
+       corrupted=corrupted {
+        resources.dat
+       }
+       dat=dat {
+        en.res
+        en.txt
+        fr.res
+        fr.txt
+        packagelist.txt
+        resources.dat
+       }
+       res=res {
+        en.res
+       }
+      }
+     }
+    }
+    Writer=Writer {
+     TranslationWriter.php
+    }
+   }
+   yaml=yaml {
+    CHANGELOG.md
+    Dumper.php
+    Escaper.php
+    Inline.php
+    LICENSE
+    Parser.php
+    README.md
+    Unescaper.php
+    Yaml.php
+    composer.json
+    phpunit.xml.dist
+    Exception=Exception {
+     DumpException.php
+     ExceptionInterface.php
+     ParseException.php
+     RuntimeException.php
+    }
+    Tests=Tests {
+     DumperTest.php
+     InlineTest.php
+     ParseExceptionTest.php
+     ParserTest.php
+     YamlTest.php
+     Fixtures=Fixtures {
+      YtsAnchorAlias.yml
+      YtsBasicTests.yml
+      YtsBlockMapping.yml
+      YtsDocumentSeparator.yml
+      YtsErrorTests.yml
+      YtsFlowCollections.yml
+      YtsFoldedScalars.yml
+      YtsNullsAndEmpties.yml
+      YtsSpecificationExamples.yml
+      YtsTypeTransfers.yml
+      embededPhp.yml
+      escapedCharacters.yml
+      index.yml
+      sfComments.yml
+      sfCompact.yml
+      sfMergeKey.yml
+      sfObjects.yml
+      sfQuotes.yml
+      sfTests.yml
+      unindentedCollections.yml
+     }
+    }
+   }
+  }
+  tijsverkoyen=tijsverkoyen {
+   akismet=akismet {
+    Akismet.php
+    Exception.php
+    LICENSE.md
+    composer.json
+   }
+  }
+  tobscure=tobscure {
+   json-api=json-api {
+    CHANGELOG.md
+    CONTRIBUTING.md
+    LICENSE
+    README.md
+    composer.json
+    phpunit.xml.dist
+    src=src {
+     AbstractSerializer.php
+     Collection.php
+     Document.php
+     ElementInterface.php
+     ErrorHandler.php
+     LinksTrait.php
+     MetaTrait.php
+     Parameters.php
+     Relationship.php
+     Resource.php
+     SerializerInterface.php
+     Util.php
+     Exception=Exception {
+      InvalidParameterException.php
+      Handler=Handler {
+       ExceptionHandlerInterface.php
+       FallbackExceptionHandler.php
+       InvalidParameterExceptionHandler.php
+       ResponseBag.php
+      }
+     }
+    }
+    tests=tests {
+     AbstractSerializerTest.php
+     AbstractTestCase.php
+     CollectionTest.php
+     DocumentTest.php
+     ErrorHandlerTest.php
+     LinksTraitTest.php
+     ParametersTest.php
+     ResourceTest.php
+     UtilTest.php
+     Exception=Exception {
+      Handler=Handler {
+       FallbackExceptionHandlerTest.php
+      }
+     }
+    }
+   }
+  }
+  zendframework=zendframework {
+   zend-diactoros=zend-diactoros {
+    CHANGELOG.md
+    CONDUCT.md
+    CONTRIBUTING.md
+    LICENSE.md
+    README.md
+    composer.json
+    composer.lock
+    mkdocs.yml
+    src=src {
+     AbstractSerializer.php
+     CallbackStream.php
+     HeaderSecurity.php
+     MessageTrait.php
+     PhpInputStream.php
+     RelativeStream.php
+     Request.php
+     RequestTrait.php
+     Response.php
+     Server.php
+     ServerRequest.php
+     ServerRequestFactory.php
+     Stream.php
+     UploadedFile.php
+     Uri.php
+     Exception=Exception {
+      DeprecatedMethodException.php
+      ExceptionInterface.php
+     }
+     Request=Request {
+      ArraySerializer.php
+      Serializer.php
+     }
+     Response=Response {
+      ArraySerializer.php
+      EmitterInterface.php
+      EmptyResponse.php
+      HtmlResponse.php
+      InjectContentTypeTrait.php
+      JsonResponse.php
+      RedirectResponse.php
+      SapiEmitter.php
+      SapiEmitterTrait.php
+      SapiStreamEmitter.php
+      Serializer.php
+      TextResponse.php
+     }
+    }
+   }
+   zend-escaper=zend-escaper {
+    CHANGELOG.md
+    CONDUCT.md
+    CONTRIBUTING.md
+    LICENSE.md
+    README.md
+    composer.json
+    mkdocs.yml
+    doc=doc {
+     book=book {
+      configuration.md
+      escaping-css.md
+      escaping-html-attributes.md
+      escaping-html.md
+      escaping-javascript.md
+      escaping-url.md
+      index.html
+      index.md
+      intro.md
+      theory-of-operation.md
+     }
+    }
+    src=src {
+     Escaper.php
+     Exception=Exception {
+      ExceptionInterface.php
+      InvalidArgumentException.php
+      RuntimeException.php
+     }
+    }
+   }
+   zend-stratigility=zend-stratigility {
+    CHANGELOG.md
+    CONDUCT.md
+    CONTRIBUTING.md
+    LICENSE.md
+    README.md
+    composer.json
+    composer.lock
+    mkdocs.yml
+    phpcs.xml
+    phpunit.xml.dist
+    doc=doc {
+     book=book {
+      api.md
+      creating-middleware.md
+      error-handlers.md
+      executing-middleware.md
+      index.html
+      index.md
+      install.md
+      intro.md
+      middleware.md
+      usage.md
+      migration=migration {
+       to-v2.md
+      }
+     }
+    }
+    src=src {
+     Dispatch.php
+     ErrorMiddlewareInterface.php
+     FinalHandler.php
+     MiddlewareInterface.php
+     MiddlewarePipe.php
+     Next.php
+     NoopFinalHandler.php
+     Route.php
+     Utils.php
+     Delegate=Delegate {
+      CallableDelegateDecorator.php
+     }
+     Exception=Exception {
+      InvalidMiddlewareException.php
+      InvalidRequestTypeException.php
+      MiddlewareException.php
+      MissingDelegateException.php
+      MissingResponseException.php
+      MissingResponsePrototypeException.php
+     }
+     Http=Http {
+      Request.php
+      Response.php
+      ResponseInterface.php
+     }
+     Middleware=Middleware {
+      CallableInteropMiddlewareWrapper.php
+      CallableMiddlewareWrapper.php
+      ErrorHandler.php
+      ErrorResponseGenerator.php
+      NotFoundHandler.php
+      OriginalMessages.php
+     }
+    }
+    test=test {
+     DispatchTest.php
+     FinalHandlerTest.php
+     MiddlewarePipeTest.php
+     NextTest.php
+     NoopFinalHandlerTest.php
+     RouteTest.php
+     UtilsTest.php
+     Exception=Exception {
+      InvalidMiddlewareExceptionTest.php
+     }
+     Http=Http {
+      RequestTest.php
+      ResponseTest.php
+     }
+     Middleware=Middleware {
+      CallableInteropMiddlewareWrapperTest.php
+      CallableMiddlewareWrapperTest.php
+      ErrorHandlerTest.php
+      NotFoundHandlerTest.php
+      OriginalMessagesTest.php
+     }
+     TestAsset=TestAsset {
+      ErrorHandler.php
+      NormalHandler.php
+      StaticHandler.php
+     }
+    }
+   }
+  }
+ }
+}
